@@ -1,0 +1,268 @@
+Evil Party
+==========================================
+Seven adventurers 
+
+Than Shant - Son of the town drunk.  Currently sleeping in the tavern.  Not exceptionally bright, but clever.  Doesn't trust anyone.  Doesn't drink,
+and is disdainful of those who do to excess.  Has no love for the town, and sees no future for himself there.  Thinking about perhaps starting
+up a tavern, because there's money to be made taking advantage of idiot drunks like his father.
+(Rogue)
+
+Drunk man in the bar, raving about treasure in the graveyard.  Pays with strange gold piece that tingles.
+-------------------------------------------
+
+Mark Westin- Son ofthe local fence.  Known to the underground in the area, but strongly discouraged by his father from pursuing a rogue's path.  
+Very smart, but can be naive.
+(Wizard)
+Unknown person fences some draconic statues, apparently golden, that tingle when touched.  Says he found them in the local
+cemetary.
+-------------------------------------------
+
+Thalia Manx- Daughter of fallen paladin.  Angry at the world, bully, conniver
+(Paladin)
+Man comes to see father, pays him for some job that he won't mention.  She takes one of the gold
+pieces, which tingles.  
+
+-------------------------------------------
+Ellemera Mend - Daughter of poacher.  Knows hunting, tracking, woodcraft.  Likes bows.  Quiet.
+(Ranger)
+Finds corpse in the woods, with a map of the cemetary.  Has pouch with gold that tingles.
+
+-------------------------------------------
+Hank Largo- Son of herb woman.  Knows a lot about herbs, nature, wilderness.  Likes poisons.  Angry with mother for living poor in wilderness.  
+(Cleric)
+Customer comes in the dead of night, looking for a poison for "rats".  Notices the cart he came in has the distinctive red clay from 
+the cemetary area on the wheels.  Also notices shovels and other digging equipment.  Man is furtive, and overpays in gold, of a strange
+mintage that tingles.
+-------------------------------------------
+
+Squid - bastard son of blacksmith.  Not too bright, but quite strong.  Easily frustrated, and easily lead. (Fighter)
+
+Out of towner comes in to the shop looking to have some excavation tools repaired.  Complains that the rock out by the cemetary is very 
+hard on the tools.  When asked what he's doing out there, he gets evasive, and offers to pay double if you can have the work done faster.  
+Pays with tingly gold.
+
+-------------------------------------------
+Dogboy - beggar.  Filthy, ignorant, but curious.  Charming in a ragged sort of way. (Sorceror/Bard)
+
+Out of towner tosses you a gold coin, more money than you have seen in your life.  As you bite it to see if it's real, he asks you if you
+would like to earn some more of them.  Says he needs you to watch his wagon while he does some business.  You are unable to resist peeking
+inside, and find some pieces of funeral urns along with a chest full of the gold pieces, and other digging supplies.  The man comes out and
+tells you that he'll have more work tomorrow if you're still interested.
+
+===========================================
+
+Go to check it out, attacked by undead 
+
+
+pulled in to crypt by draconic mage
+Offered power.  
+
+
+Told about a citadel with amazing artifacts.  
+
+================================================================
+
+Presented with an altar, on it are 6 eggs.  Pick any or none.
+
+Black, 
+ - acid
+
+Green, 
+ - gas
+
+White, 
+ - ice	
+
+Blue, 
+ - lightening 
+
+Red, 
+ - fire
+
+Spiky
+ - damage one size greater / DR 5/+5
+
+Brown
+ - sonic
+
+None 
+ - random
+
+
+================================================================
+Dragon Powers / Level
+
+1.  Str +2
+2.  Con +2
+3.  Nat Armor +1
+4.  Int +2
+5.  Claws/Teeth d6/d4
+6.  Str +2
+7.  Nat Armor +1
+8.  Breath Weapon
+9.  Nat Armor +1
+10. Cha +2
+
+================================================================
+
+Taken to an armory.  Pick any or none.
+
+Items  
+----------------
+Greatsword - Thanak's Reaper - Neutral Evil (Fighter)
+int 18, cha 18, wis 10
+
+Forged out of the iron throne of Thanak, the first lord of the DrakVath, Thanak's Reaper is
+devoted to two principles - strengthening the rule of the DrakVath, and doing it in the 
+bloodiest way possible.  The sword delights in slaughter, and has no patience with diplomats
+or cowards.  If a wielder pleases the sword, it will make more of its abilities available
+to the wielder.  On the other hand, it will reduce its cooperation if the wielder's goals
+diverge from that of the Reaper.
+
+Greatsword +1, Empathic
+Greatsword +2, Acid
+Greatsword +3, Speech, 10 Ranks in Spot
+Greatsword +3, Darkness 3/day
+Greatsword +4, Telepathic, daze monster 3/day
+Greatsword +4, Haste 3/day
+Greatsword +5, Defend Dragons, 10d6 Lightening Bolt
+===========================
+Shortbow - Kidney Skewer - Neutral Evil (Rogue), 
+int 18, wis 18, cha 10
+
+Crafted by an insane elven bowyer, Kidney Skewer is paranoid, sneaky, and underhanded.  It 
+prefers stealth, the attack from behind, and the targeted blow.  It does not like to charge
+blindly into combat, preferring to hang back and spot the weak.  It was first wielded by 
+Norvan, a professional assassin for the DrakVath.  It is loyal to the DrakVath cause from their
+long association, and works hardest when preserving their rule.
+
+Shortbow +1 (mighty +2), Empathic
+Shortbow +2 Flaming
+Shortbow +3 Speech, Sneak attack +1d6
+Shortbow +3 10 Ranks Spot, 10 Ranks Search, 10 Ranks hide
+Shortbow +4 Telepathic, major image 1/day
+shortbow +4 Icy Burst, Invisibility 3/day
+Shortbow +5 Sneak attack, +2 luck bonus on attacks, saves, checks
+=========================== 
+Longbow - Bloodfinger - Neutral Evil (Ranger), 
+int 18, wis 18, cha 10
+
+Bloodfinger is a hunter.  It enjoys the tracking, toying, and slaughtering of prey. 
+It was commissioned by Lovank, a bounty hunter and one of the lords of the DrakVath, who used it
+to first hunt down and slay it's maker.  That sort of thinking appealed to Bloodfinger, who
+is loyal to the cause of the DrakVath, as long as it gets used.  It will not tolerate any other
+intelligent items to be used by it's wielder, and is very upset if they use another weapon with
+any regularity. 
+
+Longbow +1, Mighty +4, Empathic
+Longbow +2, Shocking
+Longbow +3, Speech, hold person 3/day
+Longbow +3, Exit wound, 10 ranks knowledge (tracking), 10 ranks Listen
+Longbow +4, Telepathic, Haste
+Longbow +4, Wall of fire (ring) 1/day
+Longbow +5, Slay hunted enemy, Dimension door
+===========================
+Mace - Skullcrumple - Neutral Evil (Cleric),
+int 10, wis 18, cha 18
+
+Skullcrumple is a smiting cleric's mace.  It sings with dark power, and 
+lives to smite the pure and the good.  It can be used to heal or harm, but prefers
+harm.  It is devoted to Vathan, and thus to his favored sons, the DrakVath.  It
+will not work fully for anyone not a devotee of Vathan.
+
+Mace +1, empathic
+Mace +2, Unholy
+Mace +3, Speech, Cure/Cause moderate 3/day
+Mace +3, Spell Storing
+Mace +4, Telepathic, Bless/Bane 3/day
+Mace +4, Lesser Globe of Invulnerability 1/day
+Mace +5, Will of Vathan, Mass Inflict Light Wounds
+===========================
+Horn - Widow's Cry - Neutral Evil (Bard), 
+int 18, wis 10, cha 18
+
+Widow's cry derives its name from the number of battles that it has been blown in.  
+It loves the clamor of the battlefield, the glory of the fight, and the sounds of 
+men in pain.  It does not play jazz of any sort.  Don't even try.  
+
+Horn of Goodness/Evil, empathic
+10 Ranks in Diplomacy, 10 Ranks in Knowledge
+Speech, Detect magic at will
+major image 1/day, sonic lance 3/day
+Telepathic, fear 3/day
+battlefield rally, song of discord
+greater shout
+===========================
+Dagger - Heartspike - Neutral Evil (Sorceror),
+int 18, wis 18, cha 10
+
+Heartspike is a fit companion for a magical adept.  It loves the mystery of the
+arcane, and appreciates deft strategy and overwhelming force.  It will only work 
+fully when employed by a serious magic user, and disdains brute hacking and slashing.
+
+Dagger +1, empathic, minor image 1/day
+Dagger +2, Spell storing
+Dagger +3, Speech, Returning
+Dagger +3, locate object 3/day
+Dagger +4, telepathic, keen, arcane eye 1/day
+Dagger +4, slow 3/day
+Dagger +5, Defend/aid casters, waves of exhaustion
+===========================
+Bloody Armor - Fiendwall - Neutral Evil (Blackguard)
+
+Fiendwall is a believer in order, with itself and its wearer at the top of the
+pyramid.  It is stoic in its defense of those it considers to be strong, but will
+turn against perceived weakness in its wearer.  It loves to intimidate the
+weak and confuse the strong.
+
+Full plate +1, empathic
+Full plate +2, deathwatch, Spell resist 13
+Full plate +3, 10 ranks in intimidate, 10 ranks to bluff
+Full plate +3, Feather fall 1/day, stoneskin, 10 mins, 2/day
+Full plate +4, telepathic, minor fortification
+FUll plate +4, Etheralness
+Full plate +5, Slay weaker, true resurrection, 1/month
+===========================
+Simple Stone (Ioun Stone - 3 Feats)
+
+===========================
+Nothing (Plus 2 to prim stat, +1 to other stats)
+
+===========================
+Quarterstaff - Blackroot - Neutral Evil (Wizard)
+int 18, cha 10, wis 18
+
+Blackroot was cut from the tree planted on the grave of Vorlak, the first battle mage of the DrakVath.
+It is a battle staff, and likes the thrill of combat.  It does not take kindly to mages that run
+away at the first sight of danger.  It likes to be in the thick of battle, dispensing its energies
+on those it opposes.  It was created by a half dragon smith, and will defend that race strongly to
+this day.
+
+Quarterstaff +1, empathic
+Quarterstaff +2, spell storing
+Quarterstaff +3, speech, 10 ranks in spellcraft, 10 ranks knowledge (Arcana)
+Quarterstaff +3, staff of power
+Quarterstaff +4, telepathic, cure moderate 3/day
+Quarterstaff +4, magic circle agaist good at will, slow 3/day
+Quarterstaff +5, Defend dragons, 15d6 Greater Shout 3/day
+
+
+-------------------------------
+
+Attacked by mob of angry villagers
+
+
+-------------------------------
+
+Run out of town, camp.
+
+Ambush by bandits.
+
+
+
+
+
+
+
+
+

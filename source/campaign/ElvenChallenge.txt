@@ -1,0 +1,59 @@
+Many have sought to possess the ring that you seek.  We who have guarded it this many years will not give it up lightly.  In order to claim this prize, you must prove your worth to us.  Six tasks will be given to you, to test your mettle and your wits.  Succeed, and the ring shall be yours.  Fail, and your lives will be forfeit.  For each challenge, you may choose to face it together, or to select a champion to represent your group.  This choice can be made separately for each challenge, but you must decide before the exact nature of the challenge is revealed to you.  You will be given as much time as you wish between challenges, but once a challenge begins, you either complete it, or fail.  There is no prize for failure here.
+
+The Test of Strength
+--------------------
+Tug of war against 3 men, Strength 22.  
+
+The Test of Endurance
+---------------------
+Wave attack
+
+
+The Test of Agility
+-------------------
+Thieves challenge
+
+The Test of Intelligence 
+------------------------
+Three puzzles:
+
+1. you have two ropes, each of which takes one hour to burn completely. both of these ropes are nonhomogeneous in thickness, meaning that some parts of the ropes are chunkier than other parts of the rope. using these nonhomogeneous ropes and a lighter, time 45 minutes.
+Note: Some clarification on what is meant by nonhomogeneous. For instance, maybe a particular section of rope that is 1/8 of the total length is really chunky, and takes 50 minutes to burn off. then it would take 10 minutes to burn off the remaning 7/8, since we know that the whole rope takes an hour to burn off. that's just an example; we don't know any such ratios beforehand. The point is, if you look at one of your ropes and cut it into pieces, you have no clue how long any individual piece will take to burn off. 
+
+2. A smarmy rivet
+
+3. Toothpick puzzles
+
+The Test of Wisdom
+------------------
+Dragons - party gets init.
+
+The Test of Charisma
+--------------------
+The Debate
+
+Six judges sit on the debate
+1. Soldier
+2. Mother
+3. Beggar
+4. Priest
+5. Merchant
+6. Student
+
+Seeking justice, security, prosperity, opportunity, compassion, culture
+
+Moderator : In this time of great change, the king of Zufalls is relying upon your band to do the nearly impossible.  The forces of the DrakVath are
+strong, and some say that they will provide new days of glory not seen since ancient days.  They whisper that with that strength will come prosparity and security for all, and glory for Zufalls, if we are bold enough to grasp it.  They whisper that Heila and the golden guard have had their chance to rule, and that their meekness and indolence have weakened our kingdom, and robbed us of our opportunity for true greatness.  How do you answer these charges?  What is it that you are fighting to bring to us?  If we are to choose to support you in this fight for dominance, you must convince us that the future you bring will be a better one that the one offered by the DrakVath.  These six citizens will each ask a question 
+for you to answer.  
+
+Soldier - I am a man of war, and our land faces many enemies; the resurgence of the chromatic dragons, the savages from the southern isles, the mysterious sorceries of the waste lands, and perhaps worst of all, the influx of mimes from Perdu.  What will you do to ensure that our lands remain secure? 
+ 
+Mother - I have many children.  I have the concerns of any mother - will there be enough food for them, will they grow up in safety, and will they be able to make their way in the world once they have grown?  Tell me how children will fare in the world you seek to bring us, and how in the world you seek to prevent?
+
+Beggar - I am a broken man.  Through accident, I am unable to work, and depend on the charity of others for my living.  How would I fare if we support you, and how if we do not?
+
+Priest - I am a woman of the gods, though I serve neither Heila nor her brother.  What role will religion play in the world to come?  Will Heila rule all?  Or will other gods have their place at the table?
+
+Merchant - I am a man of trade and finance.  I seek greater opportunities for trade and gain.  How will trade flourish or fail if we support you?
+
+Student - I am a student and scholar.  How will the pursuit of knowledge, the bounty of arts and culture, and the advancement of truth fare with our support, or lack thereof?

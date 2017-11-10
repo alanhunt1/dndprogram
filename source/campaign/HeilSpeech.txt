@@ -1,0 +1,9 @@
+Welcome to the Vathan Monastery.  I am brother <name>.  Raznor alerted me that you would be joining us, and we are pleased to see you.  I am sure that you still have many questions, and one of our duties is to answer those that we may.  We are also here to provide instruction in the way you have chosen to follow.  
+
+<open for questions>
+
+You have survived to reach us, which speaks well of your abilities.  But we need to be certain that you truly have the will and the capacity to succeed in this mission before we devote ourselves to your training.  We have devised a little test for you.  Somewhere in this monastery, there is a ring.  It has little value, other than the fact that it is difficult to attain.  In the morning, you will begin your search for this ring.  It is a plain copper band, with a signet stamped on it.  <show picture>.  If you are able to acquire this ring before the next full moon, you will be judged worthy to continue.  If you are not, well, we may have to consider the possibility that we misjudged your capacity and usefulness to our brotherhood.
+
+I’m sure that you are tired.  There are refreshments, and quarters that I am sure you will find suitable.  We will provide a guide to show you points of interest in Heil, and brothers to help answer any other questions you may think of.  I would suggest that you turn in early tonight, because tomorrow with be the beginning of a difficult contest.  I am confident that you have the capacity to succeed, if you have the desire.
+
+I will leave you now.  Good luck.

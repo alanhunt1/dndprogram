@@ -1,0 +1,72 @@
+<project name="INIT" default="dist" basedir="c:/source/source/">
+    <description>
+        D and D Initiative Program build file
+    </description>
+  
+
+	
+  <!-- set global properties for this build -->
+  <property name="src" location="."/>
+  <property name="build" location="${basedir}/build"/>
+  <property name="dist"  location="${basedir}/dist"/>
+  <property name="lib"  location="${basedir}/lib"/>
+	
+	<path id="project.class.path">
+	 	<!-- include all jars in the lib directory and all sub-directories -->
+	 	  <fileset dir="${lib}">
+	 	    <include name="**/*.jar" />
+	 	  </fileset>
+      <pathelement path="${classpath}"/>
+			<pathelement path="${build}"/>
+			
+
+      <pathelement path="${src}/lib/util.jar"/>			
+	 </path>
+
+  <target name="init">
+	
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}"/>
+    <mkdir dir="${dist}"/>
+		
+  </target>
+
+  
+	<target name="compile" depends="init"
+        description="compile the source " >
+    <!-- Compile the java code from ${src} into ${build} -->
+        
+	  <javac deprecation="true" srcdir="${src}" destdir="${build}" debug="true" >
+		
+		<classpath refid="project.class.path"/>
+    </javac>
+  </target>
+
+  <target name="dist" depends="compile"
+        description="generate the distribution" >
+    
+    <!-- Put everything in ${build} into the INIT-${DSTAMP}.jar file -->
+    <!--<jar jarfile="${dist}/INIT-${DSTAMP}.jar" basedir="${build}"/>-->
+    <jar jarfile="${dist}/INIT.jar" basedir="${build}"/>
+  </target>
+
+  <target name="clean"
+        description="clean up" >
+    <!-- Delete the ${build} and ${dist} directory trees -->
+		<delete> 
+		   <fileset dir="." includes="**/*.*~" defaultexcludes="no"/>
+	  </delete>
+	  <delete> 
+		   <fileset dir="." includes="**/*.class" defaultexcludes="no"/>
+	  </delete>
+    <delete dir="${build}"/>
+    <delete dir="${dist}"/>
+  </target>
+
+	<target name="install" description="install updates" >
+		 			
+  </target>
+
+</project>

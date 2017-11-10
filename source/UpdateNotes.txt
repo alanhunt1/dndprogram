@@ -1,0 +1,200 @@
+10/20/03
+
+Added memory monitor/garbage collector
+Fixed notes display for monsters
+
+10/31/03
+
+Added placeholder tab for font controls in server
+fixed end of battle sound, and added it to the sound panel
+added new items to "Stroke the DM", randomized itmes, and added "Again" button.
+
+12/03/03
+Added auto save after every click of the "next" button
+Added call to garbage collector after every round
+
+12/04/03
+Added ability to move players up and down in the list
+
+12/18/03
+Added lots of new graphics to monster file and db
+
+1/22/04
+Upgrade to java 1.4
+Added lib directory for better portability of code
+Fixed components that needed to go to 1.4
+
+2/10/04
+Imported mapping classes, started looking at re-writing them
+started "create encounter" feature.
+
+2/14/04 
+added queueing of sends to client when it is disabled, so monster
+pictures will show up on enable.
+
+2/19/04
+finished first draft of "create encounter" feature.
+Updated "look and feel" of experience dialog
+
+2/25/04 
+fixed problem with displaying monster pictures on client side.
+
+3/08/04 
+added map generation routines
+
+3/12/04
+added map tab and load of party map
+
+3/19/04
+added stun percentage
+
+3/22/04 
+added secret doors to map
+
+3/24/04 
+added notes to map
+
+3/29/04
+added scale widget to map on client
+added logger class to eliminate System.out.println calls
+
+8/24/04
+I'm not keeping up with this file.  Bad Alan.
+Added chat function
+graphics upgrade to map
+split control panels for edit/use, 
+added arrow keys to map
+added block for incorrect moves
+added walk timing
+added random encounter modify/run
+modified generate encounter dialog
+added split/merge/transfer party capabilities
+added connection dialogs
+added trap initial stuff.
+
+9/17/04
+Still not keeping up well... added path calculator
+added more zoom to client map
+split off map generator into separate program
+added generate new level to map editor
+added paste map into map editor
+added multi group support to map 
+added better font controls to client
+added map updates to client
+added transfer monster ability to server groups
+added new damage box to hitsheet to calculate stun/kill/hp automatically.
+
+9/24/04
+Added treasure generator
+added ability to stun from client
+added "send pictures" menu option to server
+fixed "refresh from server" option on client
+
+10/8/04 
+Added time increment selector
+
+10/14/04
+Added monster attack frequency to generator dialog
+Added room information to client map
+Added "Remove Room" function to editor right click menu
+Added "Wall Area" option to "cut" large areas of corridor
+Added "Add Encounter" to allow add of custom encounters to maps
+Fixed "Add Notes" bug in edit mode of editor
+Added "Undo" feature to editor
+Fixed client ability to stun monsters, restricted now to players only
+Changed time parameters to rest for 9 hours, default to 3 minutes per square mapping,
+1 minute per square for "find path".
+Added context switch so client program switches to battle screen when a battle starts
+Fixed bug that allowed the party to move from an intersection into a room with no door
+
+10/27/04
+Fixed several mapping bugs
+Added "Level Up" feature to client, and the ability to calculate party size and 
+average party level to the server, for use in random encounter generation
+Fixed some font consistency problems
+
+11/24/04
+Fixed "wall area" bug for straight sections of corridor
+Moved "lock/unlock" button and panel to north of map editor, removed from server piece
+Re-added "reveal secret door" to use new door architecture
+Added ability to generate dungeon with specific monsters for random encounters
+Added generate status bar
+Added generate panel improvements
+Fixed client side actions when stunned or dead
+Added new client side capabilities (unstun, kill, revive)
+Added auto lookup on hit sheet with next button
+Added server ping thread
+Fixed bug in treasure generation
+Added Feats and Skills to manager
+
+12/03/04
+Added classes and races to manager
+Added print character sheet prototype to manager
+Added Feats and Skills to character manager
+Added gender render (blue/pink).
+
+12/06/04
+Added armor and weapons to manager
+Expanded print character sheet
+
+1/26/05
+Added many new features to manager
+added draw lines, areas, flood fill to mapper
+added draw room box to mapper
+
+2/23/05
+fixed mapper bugs discovered in game
+added size override, new feat calcs
+added new feats and skills
+added domains
+
+3/24/06 
+I have changed so many things that I don't even know what to include
+Repackaged app into "correct" hiearchy
+Added statistics module
+Added spells
+Added print sheets
+
+4/7/06
+refactored for client and server subpackages
+added hit sheet to client
+added DM sheet to server
+added real time HP updates to server
+added spell use prototype
+
+4/11/06
+added guards for integer and introspection class cast errors in server
+added stat mods and heal all capabilities to hitsheet
+
+4/12/06
+changed serialization methods for server save file to save to a single file instead of 
+four separate ones.  
+added ability to edit stat information for a round
+added backup of save file, with the ability to load save files even if the standard one was
+deleted
+
+4/20/06 
+Optimized many database calls to check "cached" information
+Added highlight of class features tab if extra domains available
+Changed sounds to use audioplayer, and read all sound mappings from pref files
+Did away with the now unnecessary HP panel in manager
+
+4/21/06 
+added "multi-screen" splash screen
+added "points to next level" to player manager listing
+
+5/23/06
+fixed several potential issues in network layer
+added "current" button to server
+added "refresh" on connections to avoid the graphics garbage caused in the tabbed panes
+added connected parties to both client and server in the network bar
+added attack statistics nag screen
+added "lay on hands" panel to class specific screen
+
+5/25/06
+added scale and description check to player spell sheet dialog
+added previous/next buttons to spell and skill dialogs in library
+added attacks modifier to temp mods panel to add or subtract attacks (boots of haste, etc)
+
+5/26/06
+Added memorized spellbook

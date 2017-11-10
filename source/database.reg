@@ -1,0 +1,23 @@
+Windows Registry Editor Version 5.00
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\player]
+
+"Driver"="C:\\WINNT\\System32\\odbcjt32.dll"
+"DBQ"="C:\\initcheck\\source\\player.mdb"
+"DriverId"=dword:00000019
+"FIL"="MS Access;"
+"SafeTransactions"=dword:00000000
+"UID"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\player\Engines]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\player\Engines\Jet]
+
+"ImplicitCommitSync"=""
+"MaxBufferSize"=dword:00000800
+"PageTimeout"=dword:00000005
+"Threads"=dword:00000003
+"UserCommitSync"="Yes"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\ODBC\ODBC.INI\ODBC Data Sources]
+
+"player"="Microsoft Access Driver (*.mdb)"

@@ -1,0 +1,78 @@
+The hooded man throws back his cloak, and you all recognize him, but as different people. 
+
+
+HOODED MAN : 
+<evil chuckle>
+
+Welcome, welcome.  I'm happy to see that you all were able to make it here tonight.  I have gone to some trouble to make sure that you all received my "invitations".  I can sense that you have the gold with you.
+
+Now, I'm sure that you have questions.  Like who I am, and why I deceived you into investigating this wonderful cemetery, and why I saved you from our less than alive friends. All will be answered in time, never fear.  But, to be fair, I'm happy to offer anyone who is feeling outraged at this treatment passage back out of the crypt to continue their new acquaintance with our shambling friends.  No?  Excellent.
+
+I am primarily here to offer you an opportunity.  I find that a little greed often succeeds in drawing interest where a more conventional invitation would not, so I managed to arrange for some slightly magic gold to find its way into your possession, along with some hints of varying complexity for you to find.  Don't worry, there are not normally any side effects from handling materials enchanted in this fashion, and the gold is both real and yours to keep.  
+
+You are fortunate enough to have been at the right place, at the right time, and possessed of the correct outlook to be useful to me.  I doubt that any of you are aware of this, but the cemetery in which we are standing is older than the backwater that you call home - far older.  It is in this crypt that the last members of the Drakvath were entombed, in secrecy by the shattered remnants of their order.  It is here that the order will start its return to ascendancy in Zufals.  
+
+There are few that remain who even remember the old order, a time of power and glory that was destroyed when that upstart Thendor the Golden marshaled the Golden Guard to destroy the order and its leadership.  I see that at least some of you have heard the story, now almost legend.  But I am here to tell you that what you learned were lies and half-truths.  History is written by the victors, and the world has slandered the drakvath reign.  Five hundred years ago, all of Zufals was united in a powerful, productive empire.  There were cities the likes of which the world had never before seen, and has not seen since.
+
+The world was peaceful, and the drakvath ruled with absolute authority and justice. Ever since the "victory" of Sigfried, what have we seen?  Endless wars, degeneration of society, lawlessness and chaos.  His "conquest of evil"
+has unleashed more suffering on Zufals than was ever seen under the drakvath.
+
+But enough history.  You are young, and have little patience for old men and their stories.  What are you doing here, you wonder?  Nothing less than being offered the opportunity to be among the first to restore the drakvath to power, and play a key role in their renewed dominion.  There will be riches, and power for all who are wise enough to become a part of the cause.  Zufals is weak, and scattered, and ripe for powerful leaders.
+
+I have chosen you to find a place among those leaders, if you have the will to succeed.
+
+Before you are overcome with laughter, let me warn you that this is not an opportunity without cost or danger.  Although the drakvath are all but forgotten, there are still those who remember, and will oppose our return 
+to the rightful rulership of Zufals.  The small kings and petty strongmen who currently hold sway will also not relinquish their power easily.  There are many obstacles yet to overcome.  But you have a unique opportunity, the opportunity to gain a position of power in our inevitable rebirth.
+
+What do you have to lose?  What bright future awaits any of you here?  Dreckig is a backwater, a muddy pit with no opportunity for those as promising as the seven of you.  Than!  Do you really think that you were meant for a life serving the same poison to worthless scum that ruined your father?  And you, Mark, will you be content to take over as a petty purveyor of stolen goods?  Don't you want something more?  Thalia, what future do you have chained by the sins of your father?  No one in this town will ever look on you without seeing his taint.
+Ellemera, how long is it until you're caught poaching, and have that pretty neck stretched?  Surely if you intend to risk your life to get by, you could aspire to greater rewards than some mangy venison?  Hank, do you ever want to see more of the world than that shack?  Do you relish a life of making love potions for local sniveling girls, or poisons for petty and ambitious wives?  I can offer you more than that, a chance to see Zufals.  Squid, how long do you think you will last as the apprentice smith when your mother dies?  What will happen to you then?  This town isn't big enough for two blacksmiths.  Dogboy, you don't even have that.  Which winter will be your last one?  Aren't you tired of begging for scraps, tired of the abuse you take from those idiots in town that aren't even as smart as you?  Do you really think that a magical fairy godmother might fly down and rescue you?  Of course not.  
+
+I am offering you all a chance to escape this town, a chance to become more than you ever dreamed possible. This opportunity will be dangerous, and long, and to be honest you may not all survive it.  But what is your alternative?  Which of you loves your life so much that you would turn down even a chance at the power that I can offer?  
+
+<break for acceptance>
+
+Wise, very wise.  Our first order of business will be to get you some instruction that will aid you in our efforts.  There will be many tasks ahead as we reclaim our place in Zufals.  But first, there is something special for you, for all of you.  Come with me.
+
+<move to central chamber of crypt - undoing mystical locks, etc>
+
+This is the burial chamber of the last members of the drakvath.  On this alter, are the orbs of power that helped sustain them in their time of trial and glory.  Each of you, look on the stones, and feel for one that calls out to you.  You are free to choose any, or none.  This is a precious gift, as none have seen these artifacts for five hundred years.  You are the first to enter this tomb since it was sealed those many years ago.
+
+<select stones>
+
+Now, there is one last thing before we are done here.  Come with me a bit further.
+
+<move to armory>
+
+Here are the legacies of the drakvath.  These items were at the cornerstone of their mythos, items of power that were legends in their own right.  They have been dormant for long, and will take time to awaken.  Think carefully on which item you choose, because in many ways you will be defined by your choice.  Again, you are free to take any of the items, or none, as you are moved.
+
+<select artifacts>
+
+Now, we will need to start you on the path.  Your first priority will be to seek guidance and training from the other members of the order.  There is a temple of Vathan in Heil, and the head cleric will have more instructions for you.  I also have some traveling companions to assist you in your journey.  They have served the order well, and will provide you with some more information as you travel.  They will also make sure that you remain committed to your journey.  We are at an exciting time in Zufals.  I trust that you will fulfill the promise I have seen in you.
+
+<introduce kobolds, clamor from crypt doors>
+
+And now, I see that there are some others who would like to make your acquaintance.
+
+<evil laugh, disappears>
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

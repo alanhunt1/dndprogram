@@ -1,0 +1,5 @@
+USER alanhunt_zxq
+c14e4f5470
+bin
+put player.zip
+bye

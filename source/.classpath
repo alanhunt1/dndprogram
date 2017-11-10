@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-net-1.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/derby.jar"/>
+	<classpathentry kind="lib" path="lib/jeks.jar"/>
+	<classpathentry kind="lib" path="lib/jeksparser.jar"/>
+	<classpathentry kind="lib" path="lib/jekstools.jar"/>
+	<classpathentry kind="lib" path="lib/jgoodies-common-1.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/jgroups-3.0.9.Final.jar"/>
+	<classpathentry kind="lib" path="lib/jgroups-3.2.11.Final.jar"/>
+	<classpathentry kind="lib" path="lib/jgroups-3.2.4.Final.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.16.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.8.jar"/>
+	<classpathentry kind="lib" path="lib/looks-2.0-rc.jar"/>
+	<classpathentry kind="lib" path="lib/looks-2.3.1.jar"/>
+	<classpathentry kind="lib" path="lib/mina-core-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/mina-example-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/mina-filter-compression-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/mina-integration-beans-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/mina-integration-jmx-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/mina-integration-ognl-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/mina-integration-xbean-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/mina-statemachine-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/mina-transport-apr-2.0.4.jar"/>
+	<classpathentry kind="lib" path="lib/oro-2.0.7.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/util.jar"/>
+	<classpathentry kind="lib" path="C:/source/source/lib/hsqldb.jar"/>
+	<classpathentry kind="lib" path="C:/source/source/lib/jackcess-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/source/source/initcheck/utils/ucanaccess-3.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/source/source/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/source/source/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

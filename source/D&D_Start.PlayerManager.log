@@ -1,0 +1,7 @@
+"Removed Temporary log file ManagerLog.txt" 
+*********************************************** 
+* D and D RUNNING   ""    PlayerManager 
+The system cannot find the path specified.
+*********************************************** 
+"C:\source\source\..\jre6\bin\java" -ms64M -mx128M -classpath .\dist\INIT.jar;.\lib\util.jar;.\lib\looks-2.3.1.jar;.\lib\util.jar;.\lib\looks-2.3.1.jar;.\lib\jgoodies-common-1.0.0.jar;.\lib\log4j-1.2.16.jar;.\lib\jeks.jar;.\lib\jeksparser.jar;.\lib\jekstools.jar;.\lib\slf4j-api-1.6.1.jar;.\lib\jgroups-3.2.11.Final.jar;.\lib\rt.jar -Djava.net.preferIPv4Stack=true initcheck.PlayerManager 
+*********************************************** 

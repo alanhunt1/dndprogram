@@ -1,0 +1,1 @@
+javadoc -subpackages database dialog displaycomponents dungeon io preferences sounds status utils images *.java dungeon/*.java database/*.java dialog/*.java displaycomponents/*.java io/*.java preferences/*.java sounds/*.java status/*.java utils/*.java images/*.java -d JavaDoc

@@ -1,0 +1,10 @@
+USER ahunt
+hot10tot
+lcd c:\oldbin\initcheck
+lcd c:\cvs\initcheck
+cd public_html
+bin
+put player.zip
+put version.txt
+put imageregister.txt
+bye

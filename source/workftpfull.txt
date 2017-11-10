@@ -1,0 +1,7 @@
+USER ahunt
+hot10tot
+lcd c:\oldbin\initcheck
+cd public_html
+bin
+put playerfull.zip
+bye

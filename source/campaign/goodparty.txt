@@ -1,0 +1,151 @@
+Good Party
+------------
+
+Theo Valsharek
+Father is a cleric in the order of <good deity>.  Has aspirations of following in his fathers footsteps.
+Studious, serious, quiet, strong willed.
+------------
+Manfred Kraftig
+Son of a former commander in the royal guard.  Military brat, raised in various kingdom outposts.  Trained by his father like
+one of his men.  Strict, organized, and athletic.  Likes to compete, but is not bloodthirsty.
+------------
+Karl Muller
+Son of a bard.  Charasmatic, charming, and unreliable.  Likes the ladies, and is always ready to party.  Can play several 
+instruments, but is not sure that he wants to be a bard.  Wobbly moral compass, but not meanspirited or arrogant.
+------------
+Elysia Meyer
+Daugher of a "special servant" to the king.  Her mother is actually a royal spy and assassin.  Raised in the palace, 
+and comfortable around nobility and politics.  Graceful, subtle, beautiful, and pragmatic.  
+------------
+Jan Walder
+Son of one of the kings foresters.  Loves nature, and is uncomfortable around formality.  Outgoing.  Likes hunting, tracking,
+and fishing.  
+------------
+Maria Bucher
+Daughter of town librarian.  Very smart, but socially inept.  Frizzy hair and glasses.  Loves to read, and has a very active
+imagination.  
+------------
+Torsten Regel
+Orphan, raised in a monastery.  Calm, focused, but with a sense of humor.  Does not aspire to join the monestary, but has
+warm feelings for monks.  
+
+
+------------
+Each family is visited by Sebastian, a high mage in the order of the <good guys>.  Each family has a connection to the 
+original hero who stopped the drakvath.  The mage speaks with the parents of each family, and they are told to go with him.
+After a short journey, they arrive at a monestary (wheree Torsten lives).  
+
+Amulets - Bronze, Copper, Gold, Silver, Steel, Brass, Mithril
+
+Items
+-----
+
+Warmace - Fiendslayer - Neutral Good (Cleric)
+int 10, cha 18, wis 18
+
+Warmace +1, empathic
+Warmace +2, disrupting
+Warmace +3, speech, bless 3/day
+Warmace +3, holy
+warmace +4, Telepathic, empowered owl's wisdom 1/day
+Warmace +4, lesser globe of invulnerability 1/day
+warmace +5, Slay Evil, mass inflict light wounds
+
+-----
+Quarterstaff - Heartoak - Neutral Good (Wizard)
+int 18, cha 10, wis 18
+
+Quarterstaff +1, empathic
+Quarterstaff +2, spell storing
+Quarterstaff +3, speech, 10 ranks in spellcraft, 10 ranks knowledge (Arcana)
+Quarterstaff +3, staff of power
+Quarterstaff +4, telepathic, cure moderate 3/day
+Quarterstaff +4, magic circle agaist evil at will, slow 3/day
+Quarterstaff +5, Defend dragons, 15d6 Greater Shout 3/day
+
+-----
+Horn - Lion's Pride - Neutral Good (Bard)
+The bell of the horn is a lion's roaring mouth.
+int 18, wis 10, cha 18
+
+Horn of Blasting, empathic
+10 ranks diplomacy, 10 ranks perform
+speech, locate object 3/day
+Horn of Greater blasting
+Telepathic, daylight 3/day
+haste 3/day, crescendo 3/day 
+Defend dragons, mass cure light wounds
+
+-----
+Longbow - God's Assassin - Neutral Good (Fighter)
+int 18, wis 18, cha 10
+
+Longbow +1, Mighty +4, empathic
+Longbow +2, Flaming
+Longbow +3, speech, Holy
+Longbow +3, Deathwatch
+Longbow +4, telepathic, Flaming Burst, Keen
+Longbow +4, hold person 3/day, Faerie Fire
+Longbow +5, Slay Evil, +2 luck on attacks, saves, checks
+
+
+-----
+Shortbow - Almsgiver - Neutral Good (Rogue)
+wis 18, cha 18, int 10
+
+Shortbow +1, Mighty +2, empathic
+Shortbow +2, True Strike 3/day
+Shortbow +3, speech, keen
+Shortbow +3, cat's Grace 1/day (8 hrs)
+Shortbow +4, telepathic, Invisibility, 3/day
+shortbow +4, Blood seeking, True seeing (at will)
+Shortbow +5, Defend helpless, Disintigrate (DC 18)
+
+
+-----
+Shortswords - Fire and Ice - Neutral Good (Ranger)
+Wis 18, Cha 18, int 10
+
+Shortsword +1/+1, flaming/frost
+Shortsword +2/+2, 10 ranks wilderness lore / 10 ranks hide
+Shortsword +3/+3, speech, hunting/hunting
+Shortsword +3/+3, improved initiative/lightening reflexes
+Shortsword +4/+4, telepathic, flaming burst/freezing burst, 
+Shortsword +4/+4, doesnt need to sleep/evasion
+Shortsword +5/+5, Slay undead, +2 saves, +2 AC, sr 15
+
+-----
+
+Circlet - The Mind's Eye - Neutral Good (Sorceror)
+Int 18, Cha 18, wis 10
+
+Empowered eagle's splendor, 1/day
+see invisible at will, locate object in 120' radius
+speech, find traps at will, detect secret doors at will
+True seeing at will, darkvision 120'
+Shield on wielder, 3/day
+Clairaudience/Clairvoyance 3/day
+defeat non-spellcasters, blessed aim 3/day
+
+-----
+Golden Full plate - Thendors Sentry - Neutral Good (Paladin)
+Cha 18, Wis 18, int 10
+
+Mithril Full Plate +1, empathic
+Mithril Full Plate +2, invulnerability, consecrate 3/day
+Mithril Full Plate +3, speech, feather fall 1/day
+Mithril Full Plate +3, Mirror image 3/day, 
+Mithril Full Plate +4, telepathic, moderate fortification
+Mithril Full Plate +4, Dispel Evil 3/day
+Mithril Full Plate +5, Slay Evil, Holy Aura 1/day
+
+-----
+
+Emerald
+Ioun stone, 3 feats.
+
+
+Instructed by monks, gain first two levels.
+
+
+ 

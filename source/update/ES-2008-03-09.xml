@@ -1,0 +1,2594 @@
+<DCharacter>
+<Id>1573</Id>
+<Name>Ellemera</Name>
+<Race>Human</Race>
+<Alignment>TRUE NEUTRAL</Alignment>
+<Party>Dreckig</Party>
+<MarchOrder>4</MarchOrder>
+<SleepShift>0</SleepShift>
+<XP>55596</XP>
+<Height>5' 6"</Height>
+<Weight>110</Weight>
+<Age>15</Age>
+<Eyes>Green</Eyes>
+<Hair>Black</Hair>
+<FullName>Ellemera Mend</FullName>
+<MiscArmorText>null</MiscArmorText>
+<PlayerNotes>Daughter of poacher.  Knows hunting, tracking, woodcraft.  Likes bows.  Quiet. (Not so much actually).
+Pair of former wilderness enthusiast boots
+Green Tatoo on Right Hand
+Bow (Bloodfinger), my name is Makranth
+
+Notes:
+
+Ellemera basic memory of life is being alone.  Sure, Mom was there for a while and Dad was gone, but 
+when Mom died, he did do the minimum and was there for her.  But, Dad was always competing, I do this 
+better than you, I do that better than you.  But having said all that Dad did teach her one thing.  He taught 
+her to survive.  Alone.
+
+Ellemera survived alone and likes being left alone.  Many thinks she is ‘quiet’, but that isn’t quite the 
+truth.  She tells the truth, as she sees it.  Something she has noticed is that people don’t like hearing the 
+truth, they think she’s ‘whining’ or ‘bitching’, but in the end she’s always seems to right.
+Ellemera has come to the conclusion that people want the truth, they just don’t want to hear it.
+
+Now this ‘quest’ has hit her right in the middle of the face.  She knew she should have left that body be.  
+This whole farce isn’t worth the 20 GP she found.
+Every time she tries something new, it bites her in the ass.  Now she’s trapped doing something for this 
+‘Dr. Evil’, a bunch of ratboys and a bunch of folks she never dealt with in the real world for obvious 
+reasons and now all she wants to be is what she likes being.  Alone.  But, she knows the rules of these 
+‘quests’.  But given the chance.  Later Chuck and Di.
+
+It’s not that she doesn’t want to have friends.  She will even let her friends call her ‘Ellemera’.  
+Everyone else calls her Elly May.  Her Dad always did.
+
+So far, she actually tried to be friends with Thalia, but that didn’t seem to work.  Hank.  Hank she simply 
+doesn’t want to piss that guy off.  Doughboy. Or was that Dogboy?  Head case, but some interesting ideas. 
+Mark ‘Man of Action’?  ‘Man of Mystery’ is more like it.  Than.  Her least favorite at the start, but he’s not as 
+much of a coward as she thought.  Squid.  Squid.  Simple reliable.  Good in a fight.  He’ll keep me alive 
+through this.  Him I’ll protect.  Then Than.  The rest……
+
+The ratboys.  Twice.  Twice we could have dumped them, but they don’t want to hear the truth.  You wait 
+and see, Dr. Evil will replace them with some other set of twerps.
+
+This adventure will be the death of me I just know it.  I’ve got to find a way out so I can be alone.  
+I’ll bide my time play my roll.
+
+Current thought:  This is crap!  What a pointy nose and talons?  Bit in the ass again!  But, knowing the rules, 
+this too shall pass.  These are just disguises.
+
+
+Notes to resolve:</PlayerNotes>
+<BaseMovementOverride>0</BaseMovementOverride>
+<MiscArmor>0</MiscArmor>
+<DamageReduction>-/-</DamageReduction>
+<SpellResist>-</SpellResist>
+<PlayerName>Eric</PlayerName>
+<Deity></Deity>
+<Gender>F</Gender><NaturalArmor>1</NaturalArmor>
+<SizeOverride>null</SizeOverride>
+<ModNotes>(0/-2) attacks past 30'</ModNotes>
+<Picture>images/chars/EllyMay2.JPG</Picture>
+<PartyId>43</PartyId>
+<ClassSlot><ClassId>8</ClassId><Level>11</Level><VirtualLevel>0</VirtualLevel><InstanceId>1877</InstanceId></ClassSlot>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>---------WORN----------</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Worn</Location>
+<Cost>0</Cost>
+<Notes> </Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>1</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Bracers</ItemName>
+<Weight>1.0</Weight>
+<Quantity>1</Quantity>
+<Location>Worn</Location>
+<Cost>0</Cost>
+<Notes>of archery (+2/+1)</Notes>
+<Dropped>false</Dropped>
+<HasMod>true</HasMod>
+<ModType>Circumstance</ModType>
+<Position>2</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Ring</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Worn</Location>
+<Cost>0</Cost>
+<Notes>Protection +1</Notes>
+<Dropped>false</Dropped>
+<HasMod>true</HasMod>
+<ModType>Deflection</ModType>
+<Position>3</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Sandals</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Worn</Location>
+<Cost>0</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>4</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>---------BACKPACK----------</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>0</Cost>
+<Notes> </Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>5</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Backpack, Lg w/ Frame</ItemName>
+<Weight>5.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>2</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>6</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Bedroll</ItemName>
+<Weight>5.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>1sp</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>7</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Armor</ItemName>
+<Weight>4.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>0</Cost>
+<Notes>+1 Buckler</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>8</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Fletcher Kit</ItemName>
+<Weight>1.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>5</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>9</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Flint & Steel</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>1</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>10</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Peeking Duck</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>0</Cost>
+<Notes>+10 spot</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>11</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Robe</ItemName>
+<Weight>1.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>0</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>12</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Tent</ItemName>
+<Weight>20.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>10gp</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>13</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Trail Rations</ItemName>
+<Weight>1.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>0.5</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>14</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Traveller's Outfit</ItemName>
+<Weight>5.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>1</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>15</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Waterskin</ItemName>
+<Weight>4.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>1gp</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>16</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>---------BANDOLEER----------</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Bandoleer</Location>
+<Cost>0</Cost>
+<Notes> </Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>17</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Bandoleer</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Bandoleer</Location>
+<Cost>0.5</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>18</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Wand</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Bandoleer</Location>
+<Cost>0</Cost>
+<Notes>Burning Hands (20)</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>19</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Wand</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Bandoleer</Location>
+<Cost>0</Cost>
+<Notes>Of Daylight (9)</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>20</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>---------POTION BELT----------</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Holds 10 Potions</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>21</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Antitoxin (vial)</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>50</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>22</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Dust</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Appearance (5)</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>23</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Cure Serious</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>24</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Hiding (+10 to hide)</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>25</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Prot. Arrows</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>26</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Speaking (+10 to Speak)</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>27</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1573</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>2</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Spider Climb</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>28</Position>
+</PlayerItems>
+<Weapon>
+<Id>1636</Id>
+<Name>Mighty Longbow (+2)</Name>
+<Cost>150gp</Cost>
+<Damage>1d8</Damage>
+<Crit>null</Crit>
+<Range>110ft</Range>
+<Weight>3</Weight>
+<Type>Piercing</Type>
+<Size>Large</Size>
+<Category>Martial</Category>
+<Rangedmelee>Ranged</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1>See rules</Notes1>
+<Notes2>null</Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Bow</FeatClass>
+<Bonus>4</Bonus>
+<Description>Mighty Longbow (+2) :  DMG 1d8
+ CRIT x3
+ RANGE 110ft
+ TYPE Martial Ranged
+ SOURCE PHB (3.0)
+ NOTES : See rules
+
+Upon command, a shock weapon is sheathed in crackling electricity. The electricity does not harm the hands that hold the weapon. Shock weapons deal +1d6 points of bonus electricity damage on a successful hit. Bows, crossbows, and slings so enchanted bestow the electricity energy upon their ammunition.
+Caster Level: 8th; Prerequisites: Craft Magic Arms and Armor, call lightning or lightning bolt; Market Price: +1 bonus.
+A weapon of speed allows the wielder one single extra attack each round at the wielder’s highest bonus. It is not cumulative with haste. The extra attack must be with this weapon. The weapon does not grant the benefits of a haste spell, simply an extra single attack with this weapon.
+Caster Level: 7th; Prerequisites: Craft Magic Arms and Armor, haste; Market Price: +4 bonus.
+null
+null
+null
+null</Description>
+<Ability1>28</Ability1>
+<Ability2>32</Ability2>
+<Intelligent>false</Intelligent>
+<Category>Martial</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>3663</InstanceId>
+<Use>Normal</Use>
+<Notes>Hold Person 3/day</Notes>
+<Quantity>1</Quantity>
+<Order>1</Order>
+<CritOverride>false</CritOverride>
+<CritStart>20</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>3</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+<WeaponViews>
+<PlayerWeaponId>3663</PlayerWeaponId>
+<FeatId>116</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3663</PlayerWeaponId>
+<FeatId>112</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3663</PlayerWeaponId>
+<FeatId>110</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3663</PlayerWeaponId>
+<FeatId>102</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3663</PlayerWeaponId>
+<FeatId>1126</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3663</PlayerWeaponId>
+<FeatId>104</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3663</PlayerWeaponId>
+<FeatId>423</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3663</PlayerWeaponId>
+<FeatId>100</FeatId>
+</WeaponViews>
+</Weapon>
+<Weapon>
+<Id>52</Id>
+<Name>Dagger</Name>
+<Cost>2gp</Cost>
+<Damage>1d4</Damage>
+<Crit>null</Crit>
+<Range>10ft</Range>
+<Weight>1</Weight>
+<Type>Piercing</Type>
+<Size>Tiny</Size>
+<Category>Simple</Category>
+<Rangedmelee>Melee</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1>Weapon finesse</Notes1>
+<Notes2>null</Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Dagger</FeatClass>
+<Bonus></Bonus>
+<Description>Dagger :  DMG 1d4
+ CRIT 19-20/x2
+ RANGE 10ft
+ TYPE Simple Melee
+ SOURCE Players Handbook
+ NOTES : Weapon finesse
+
+null
+null
+null
+null
+null
+null</Description>
+<Intelligent>false</Intelligent>
+<Category>Simple</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>false</Masterwork>
+<InstanceId>3664</InstanceId>
+<Use>Normal</Use>
+<Notes></Notes>
+<Quantity>1</Quantity>
+<Order>2</Order>
+<CritOverride>false</CritOverride>
+<CritStart>19</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>2</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>188</Id>
+<Name>Short sword</Name>
+<Cost>10gp</Cost>
+<Damage>1d6</Damage>
+<Crit>null</Crit>
+<Range>-</Range>
+<Weight>3</Weight>
+<Type>Piercing</Type>
+<Size>Small</Size>
+<Category>Martial</Category>
+<Rangedmelee>Melee</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1>null</Notes1>
+<Notes2>null</Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Sword</FeatClass>
+<Bonus></Bonus>
+<Description>Short sword :  DMG 1d6
+ CRIT 19-20/x2
+ RANGE -
+ TYPE Martial Melee
+ SOURCE Players Handbook
+ NOTES : null
+
+null
+null
+null
+null
+null
+null</Description>
+<Intelligent>false</Intelligent>
+<Category>Martial</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>false</Masterwork>
+<InstanceId>3665</InstanceId>
+<Use>Normal</Use>
+<Notes></Notes>
+<Quantity>1</Quantity>
+<Order>3</Order>
+<CritOverride>false</CritOverride>
+<CritStart>19</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>2</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>1659</Id>
+<Name>Mighty Longbow (+3)</Name>
+<Cost>200gp</Cost>
+<Damage>1d8</Damage>
+<Crit>null</Crit>
+<Range>110ft</Range>
+<Weight>3</Weight>
+<Type>Piercing</Type>
+<Size>Large</Size>
+<Category>Martial</Category>
+<Rangedmelee>Ranged</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1>See rules</Notes1>
+<Notes2></Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Bow</FeatClass>
+<Bonus></Bonus>
+<Description>Mighty Longbow (+3) :  DMG 1d8
+ CRIT 20x3
+ RANGE 110ft
+ TYPE Martial Ranged
+ SOURCE PHB (3.0)
+ NOTES : See rules
+
+null
+null
+null
+null
+null
+null</Description>
+<Intelligent>false</Intelligent>
+<Category>Martial</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>false</Masterwork>
+<InstanceId>3666</InstanceId>
+<Use>Normal</Use>
+<Notes></Notes>
+<Quantity>1</Quantity>
+<Order>4</Order>
+<CritOverride>false</CritOverride>
+<CritStart>20</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>3</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+<WeaponViews>
+<PlayerWeaponId>3666</PlayerWeaponId>
+<FeatId>102</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3666</PlayerWeaponId>
+<FeatId>116</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3666</PlayerWeaponId>
+<FeatId>110</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3666</PlayerWeaponId>
+<FeatId>1126</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3666</PlayerWeaponId>
+<FeatId>423</FeatId>
+</WeaponViews>
+</Weapon>
+<Weapon>
+<Id>188</Id>
+<Name>Short sword</Name>
+<Cost>10gp</Cost>
+<Damage>1d6</Damage>
+<Crit>null</Crit>
+<Range>-</Range>
+<Weight>3</Weight>
+<Type>Piercing</Type>
+<Size>Small</Size>
+<Category>Martial</Category>
+<Rangedmelee>Melee</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1>null</Notes1>
+<Notes2>null</Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Sword</FeatClass>
+<Bonus>2</Bonus>
+<Description>Short sword :  DMG 1d6
+ CRIT 19-20/x2
+ RANGE -
+ TYPE Martial Melee
+ SOURCE PHB (3.0)
+ NOTES : null
+
+null
+null
+null
+null
+null
+null</Description>
+<Intelligent>false</Intelligent>
+<Category>Martial</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>3667</InstanceId>
+<Use>Normal</Use>
+<Notes></Notes>
+<Quantity>1</Quantity>
+<Order>5</Order>
+<CritOverride>false</CritOverride>
+<CritStart>19</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>2</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>135</Id>
+<Name>Light mace</Name>
+<Cost>5gp</Cost>
+<Damage>1d6</Damage>
+<Crit>null</Crit>
+<Range>-</Range>
+<Weight>6</Weight>
+<Type>Blunt</Type>
+<Size>Small</Size>
+<Category>Simple</Category>
+<Rangedmelee>Melee</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1>null</Notes1>
+<Notes2>null</Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Mace</FeatClass>
+<Bonus>1</Bonus>
+<Description>Light mace :  DMG 1d6
+ CRIT x2
+ RANGE -
+ TYPE Simple Melee
+ SOURCE PHB (3.0)
+ NOTES : null
+
+null
+null
+null
+null
+null
+null</Description>
+<Intelligent>false</Intelligent>
+<Category>Simple</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>3668</InstanceId>
+<Use>Normal</Use>
+<Notes>Green Scepter of the DrakVath - Rod of Alertness</Notes>
+<Quantity>1</Quantity>
+<Order>6</Order>
+<CritOverride>false</CritOverride>
+<CritStart>20</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>2</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>6</Id>
+<Name>Arrows</Name>
+<Cost>1gp</Cost>
+<Damage>-</Damage>
+<Crit>-</Crit>
+<Range>-</Range>
+<Weight>3</Weight>
+<Type>null</Type>
+<Size>-</Size>
+<Category>Ammunition</Category>
+<Rangedmelee>null</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1></Notes1>
+<Notes2></Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Arrow</FeatClass>
+<Bonus></Bonus>
+<Description>Arrows :  DMG -
+ CRIT -
+ RANGE -
+ TYPE Ammunition null
+ SOURCE PHB (3.0)
+ NOTES : </Description>
+<Intelligent>false</Intelligent>
+<Category>Ammunition</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>648</InstanceId>
+<Use>Normal</Use>
+<Notes></Notes>
+<Quantity>200</Quantity>
+<Order>0</Order>
+<CritOverride>false</CritOverride>
+<CritStart>null</CritStart>
+<CritEnd>null</CritEnd>
+<CritMult>null</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>6</Id>
+<Name>Arrows</Name>
+<Cost>1gp</Cost>
+<Damage>-</Damage>
+<Crit>-</Crit>
+<Range>-</Range>
+<Weight>3</Weight>
+<Type>null</Type>
+<Size>-</Size>
+<Category>Ammunition</Category>
+<Rangedmelee>null</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1></Notes1>
+<Notes2></Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Arrow</FeatClass>
+<Bonus></Bonus>
+<Description>Arrows :  DMG -
+ CRIT -
+ RANGE -
+ TYPE Ammunition null
+ SOURCE PHB (3.0)
+ NOTES :</Description>
+<Intelligent>false</Intelligent>
+<Category>Ammunition</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>false</Masterwork>
+<InstanceId>649</InstanceId>
+<Use>Normal</Use>
+<Notes></Notes>
+<Quantity>46</Quantity>
+<Order>0</Order>
+<CritOverride>false</CritOverride>
+<CritStart>null</CritStart>
+<CritEnd>null</CritEnd>
+<CritMult>null</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>6</Id>
+<Name>Arrows</Name>
+<Cost>1gp</Cost>
+<Damage>-</Damage>
+<Crit>-</Crit>
+<Range>-</Range>
+<Weight>3</Weight>
+<Type>null</Type>
+<Size>-</Size>
+<Category>Ammunition</Category>
+<Rangedmelee>null</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1></Notes1>
+<Notes2></Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Arrow</FeatClass>
+<Bonus></Bonus>
+<Description>Arrows :  DMG -
+ CRIT -
+ RANGE -
+ TYPE Ammunition null
+ SOURCE PHB (3.0)
+ NOTES : </Description>
+<Intelligent>false</Intelligent>
+<Category>Ammunition</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>650</InstanceId>
+<Use>Normal</Use>
+<Notes>Poison - dc13 fort - d4/d4 STR</Notes>
+<Quantity>20</Quantity>
+<Order>0</Order>
+<CritOverride>false</CritOverride>
+<CritStart>null</CritStart>
+<CritEnd>null</CritEnd>
+<CritMult>null</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>6</Id>
+<Name>Arrows</Name>
+<Cost>1gp</Cost>
+<Damage>-</Damage>
+<Crit>-</Crit>
+<Range>-</Range>
+<Weight>3</Weight>
+<Type>null</Type>
+<Size>-</Size>
+<Category>Ammunition</Category>
+<Rangedmelee>null</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1></Notes1>
+<Notes2></Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Arrow</FeatClass>
+<Bonus>1</Bonus>
+<Description>Arrows :  DMG -
+ CRIT -
+ RANGE -
+ TYPE Ammunition null
+ SOURCE PHB (3.0)
+ NOTES : </Description>
+<Intelligent>false</Intelligent>
+<Category>Ammunition</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>651</InstanceId>
+<Use>Normal</Use>
+<Notes></Notes>
+<Quantity>50</Quantity>
+<Order>0</Order>
+<CritOverride>false</CritOverride>
+<CritStart>null</CritStart>
+<CritEnd>null</CritEnd>
+<CritMult>null</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<PlayerHp>
+<Id>8771</Id>
+<Level>1</Level>
+<HitPoints>10</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8772</Id>
+<Level>2</Level>
+<HitPoints>10</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8773</Id>
+<Level>3</Level>
+<HitPoints>10</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8774</Id>
+<Level>4</Level>
+<HitPoints>10</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8775</Id>
+<Level>5</Level>
+<HitPoints>9</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8776</Id>
+<Level>6</Level>
+<HitPoints>9</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8777</Id>
+<Level>7</Level>
+<HitPoints>6</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8778</Id>
+<Level>8</Level>
+<HitPoints>10</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8779</Id>
+<Level>9</Level>
+<HitPoints>10</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8780</Id>
+<Level>10</Level>
+<HitPoints>8</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8781</Id>
+<Level>11</Level>
+<HitPoints>10</HitPoints>
+<ClassId>8</ClassId>
+<ClassName>Ranger</ClassName>
+</PlayerHp>
+<PlayerTempMod>
+<Id>1227</Id>
+<PlayerId>1573</PlayerId>
+<Name>Bracers</Name>
+<ModType>Circumstance</ModType>
+<LinkType>Item</LinkType>
+<LinkId>18256</LinkId>
+<StrMod>null</StrMod>
+<ConMod>null</ConMod>
+<DexMod>null</DexMod>
+<IntMod>null</IntMod>
+<WisMod>null</WisMod>
+<ChaMod>null</ChaMod>
+<StrCheckMod>0</StrCheckMod>
+<ConCheckMod>0</ConCheckMod>
+<DexCheckMod>0</DexCheckMod>
+<IntCheckMod>0</IntCheckMod>
+<WisCheckMod>0</WisCheckMod>
+<ChaCheckMod>0</ChaCheckMod>
+<NatMod>null</NatMod>
+<AcMod>null</AcMod>
+<RestMod>null</RestMod>
+<TouchMod>null</TouchMod>
+<MeleeMod>null</MeleeMod>
+<RangeMod>2</RangeMod>
+<DamageMod>1</DamageMod>
+<FortMod>null</FortMod>
+<RefMod>null</RefMod>
+<WillMod>null</WillMod>
+<Conditional>false</Conditional>
+<AttackMod>0</AttackMod>
+</PlayerTempMod>
+<PlayerTempMod>
+<Id>1228</Id>
+<PlayerId>1573</PlayerId>
+<Name>Ring</Name>
+<ModType>Deflection</ModType>
+<LinkType>Item</LinkType>
+<LinkId>18294</LinkId>
+<StrMod>null</StrMod>
+<ConMod>null</ConMod>
+<DexMod>null</DexMod>
+<IntMod>null</IntMod>
+<WisMod>null</WisMod>
+<ChaMod>null</ChaMod>
+<StrCheckMod>0</StrCheckMod>
+<ConCheckMod>0</ConCheckMod>
+<DexCheckMod>0</DexCheckMod>
+<IntCheckMod>0</IntCheckMod>
+<WisCheckMod>0</WisCheckMod>
+<ChaCheckMod>0</ChaCheckMod>
+<NatMod>null</NatMod>
+<AcMod>1</AcMod>
+<RestMod>1</RestMod>
+<TouchMod>1</TouchMod>
+<MeleeMod>null</MeleeMod>
+<RangeMod>null</RangeMod>
+<DamageMod>null</DamageMod>
+<FortMod>null</FortMod>
+<RefMod>null</RefMod>
+<WillMod>null</WillMod>
+<Conditional>false</Conditional>
+<AttackMod>0</AttackMod>
+</PlayerTempMod>
+<PlayerFeats>
+<Id>7343</Id>
+<FeatId>110</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7344</Id>
+<FeatId>112</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7345</Id>
+<FeatId>116</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7346</Id>
+<FeatId>423</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7347</Id>
+<FeatId>1126</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7348</Id>
+<FeatId>102</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7349</Id>
+<FeatId>100</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7350</Id>
+<FeatId>104</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerSkill>
+<Id>13222</Id>
+<SkillId>5</SkillId>
+<Ranks>2</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13223</Id>
+<SkillId>7</SkillId>
+<Ranks>2</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13224</Id>
+<SkillId>8</SkillId>
+<Ranks>1</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13225</Id>
+<SkillId>16</SkillId>
+<Ranks>4</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13226</Id>
+<SkillId>18</SkillId>
+<Ranks>1</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13227</Id>
+<SkillId>19</SkillId>
+<Ranks>9</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13228</Id>
+<SkillId>22</SkillId>
+<Ranks>4</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13229</Id>
+<SkillId>23</SkillId>
+<Ranks>3</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13230</Id>
+<SkillId>25</SkillId>
+<Ranks>1</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13231</Id>
+<SkillId>26</SkillId>
+<Ranks>9</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13232</Id>
+<SkillId>34</SkillId>
+<Ranks>10</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13233</Id>
+<SkillId>35</SkillId>
+<Ranks>8</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13234</Id>
+<SkillId>38</SkillId>
+<Ranks>9</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>10</Misc>
+<Notes>peeking duck</Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13235</Id>
+<SkillId>39</SkillId>
+<Ranks>2</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13236</Id>
+<SkillId>42</SkillId>
+<Ranks>2</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13237</Id>
+<SkillId>43</SkillId>
+<Ranks>4</Ranks>
+<ClassId>8</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerFavoredEnemy>
+<Id>21</Id>
+<PlayerId>1573</PlayerId>
+<ClassId>8</ClassId>
+<FavoredEnemy>Undead</FavoredEnemy>
+</PlayerFavoredEnemy>
+<PlayerFavoredEnemy>
+<Id>28</Id>
+<PlayerId>1573</PlayerId>
+<ClassId>8</ClassId>
+<FavoredEnemy>Giants</FavoredEnemy>
+</PlayerFavoredEnemy>
+<PlayerFavoredEnemy>
+<Id>29</Id>
+<PlayerId>1573</PlayerId>
+<ClassId>8</ClassId>
+<FavoredEnemy>Aberrations</FavoredEnemy>
+</PlayerFavoredEnemy>
+<PlayerArmor>
+<InstanceId>4209</InstanceId>
+<ArmorId>4</ArmorId>
+<ArmorType>armor</ArmorType>
+<Description>null</Description>
+<Bonus>3</Bonus>
+<Ability1>null</Ability1>
+<Ability2>null</Ability2>
+<AtRest>N</AtRest>
+<Name>Chain Shirt</Name>
+<PlayerId>null</PlayerId>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+<ArcaneFail>20</ArcaneFail><Source>null</Source><Masterwork>true</Masterwork></PlayerArmor>
+<PlayerArmor>
+<InstanceId>4210</InstanceId>
+<ArmorId>20</ArmorId>
+<ArmorType>Shield</ArmorType>
+<Description></Description>
+<Bonus>0</Bonus>
+<Ability1>null</Ability1>
+<Ability2>null</Ability2>
+<AtRest>null</AtRest>
+<Name>No Shield</Name>
+<PlayerId>null</PlayerId>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+<ArcaneFail>0</ArcaneFail><Source>null</Source></PlayerArmor>
+<PlayerArmor>
+<InstanceId>4211</InstanceId>
+<ArmorId>19</ArmorId>
+<ArmorType>armor</ArmorType>
+<Description></Description>
+<Bonus>0</Bonus>
+<Ability1>null</Ability1>
+<Ability2>null</Ability2>
+<AtRest>Y</AtRest>
+<Name>No Armor</Name>
+<PlayerId>null</PlayerId>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+<ArcaneFail>0</ArcaneFail><Source>null</Source></PlayerArmor>
+<StatBlock>
+<Str>19</Str>
+<Wis>12</Wis>
+<Dex>18</Dex>
+<Con>17</Con>
+<Cha>10</Cha>
+<Intel>10</Intel>
+<LevelStr>0</LevelStr>
+<LevelDex>2</LevelDex>
+<LevelInt>0</LevelInt>
+<LevelCon>0</LevelCon>
+<LevelWis>0</LevelWis>
+<LevelCha>0</LevelCha>
+<MiscStr>0</MiscStr>
+<MiscDex>0</MiscDex>
+<MiscCon>0</MiscCon>
+<MiscInt>0</MiscInt>
+<MiscWis>0</MiscWis>
+<MiscCha>0</MiscCha>
+<BookStr>0</BookStr>
+<BookDex>0</BookDex>
+<BookCon>0</BookCon>
+<BookInt>0</BookInt>
+<BookWis>0</BookWis>
+<BookCha>0</BookCha>
+<MiscStrText>null</MiscStrText>
+<MiscDexText>null</MiscDexText>
+<MiscConText>null</MiscConText>
+<MiscIntText>null</MiscIntText>
+<MiscWisText>null</MiscWisText>
+<MiscChaText>null</MiscChaText>
+</StatBlock>
+<SaveBlock>
+<Fort>7</Fort>
+<Will>3</Will>
+<Ref>3</Ref>
+<MiscFort>0</MiscFort>
+<MiscRef>0</MiscRef>
+<MiscWill>0</MiscWill>
+<MiscFortText></MiscFortText>
+<MiscRefText></MiscRefText>
+<MiscWillText></MiscWillText>
+</SaveBlock>
+<MoneyBlock>
+<Pp>0</Pp>
+<Gp>650</Gp>
+<Sp>5</Sp>
+<Cp>10</Cp>
+<StoredGold>10</StoredGold>
+</MoneyBlock>
+</DCharacter>
+<DCharacter>
+<Id>1574</Id>
+<Name>Squid</Name>
+<Race>Human</Race>
+<Alignment>NEUTRAL EVIL</Alignment>
+<Party>Dreckig</Party>
+<MarchOrder>2</MarchOrder>
+<SleepShift>0</SleepShift>
+<XP>55021</XP>
+<Height>6' 1"</Height>
+<Weight>190</Weight>
+<Age>17</Age>
+<Eyes>Gray</Eyes>
+<Hair>Brown</Hair>
+<FullName>Squid</FullName>
+<MiscArmorText>null</MiscArmorText>
+<PlayerNotes>bastard son of blacksmith.  Not too bright, but quite strong.  Easily frustrated, and easily lead.
+Starting to look like a dragon (elongated face, pointed teeth, talons) My name is Visktath
+Grey spikey stone tattoo on palm of right hand; Gold stud in his tongue
+Hank is his friend and advisor, and handles all of his money- My home is north of Heil
+Feat Path: 12: Unarmored Spec, Unarmored Mast, STR+1,14: Improved Critical, 
+15: Greater Weapon Spec; 16: Elite Weapon Mastery, STR+1 18: ; 19: ; 20: ,STR+1
+Things I have killed: 
+Animated Object, Bombadier Beetle, Darkmantle, Dire Rat, Dire Wolf, Dire Wolverine, Displacer Beast, 
+Earth Elemental sm, Fire Elemental md & elder, Gelatenous Cube, Hell Hound, Ogre, Ogre Magi, Skeleton, 
+Gargantuan & Giant Spider, Swamp Ogre, Thug, Thug/Assassin, Troll, Viper, Zombie
+Last Update 3/9/09</PlayerNotes>
+<BaseMovementOverride>0</BaseMovementOverride>
+<MiscArmor>0</MiscArmor>
+<DamageReduction>-/-</DamageReduction>
+<SpellResist>-</SpellResist>
+<PlayerName>Mike</PlayerName>
+<Deity></Deity>
+<Gender>M</Gender><NaturalArmor>0</NaturalArmor>
+<SizeOverride>null</SizeOverride>
+<ModNotes>Power Attack (11 max)
+Great Cleave
+Locking Gauntlets</ModNotes>
+<Picture>images/chars/squid.jpg</Picture>
+<PartyId>43</PartyId>
+<ClassSlot><ClassId>1</ClassId><Level>11</Level><VirtualLevel>0</VirtualLevel><InstanceId>1878</InstanceId></ClassSlot>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName><<<<<-----WORN----->>>>></ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Worn</Location>
+<Cost>0</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>1</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Locking Gauntlets</ItemName>
+<Weight>2.0</Weight>
+<Quantity>1</Quantity>
+<Location>Worn</Location>
+<Cost>2gp</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>2</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Boots</ItemName>
+<Weight>1.0</Weight>
+<Quantity>1</Quantity>
+<Location>Worn</Location>
+<Cost>1</Cost>
+<Notes>Speed (+1att; +4ac; jump150%)</Notes>
+<Dropped>false</Dropped>
+<HasMod>true</HasMod>
+<ModType>Haste</ModType>
+<Position>3</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Belt</ItemName>
+<Weight>1.0</Weight>
+<Quantity>1</Quantity>
+<Location>Back</Location>
+<Cost>0</Cost>
+<Notes>Giant Strength +4</Notes>
+<Dropped>false</Dropped>
+<HasMod>true</HasMod>
+<ModType>Enhancement</ModType>
+<Position>4</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName><<<<<-----BACKPACK----->>>>></ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>0</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>5</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Backpack</ItemName>
+<Weight>2.0</Weight>
+<Quantity>1</Quantity>
+<Location>Back</Location>
+<Cost>2gp</Cost>
+<Notes>Standard Pack</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>6</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Traveller's Outfit</ItemName>
+<Weight>5.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>1</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>7</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Bedroll</ItemName>
+<Weight>5.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>1sp</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>8</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Trail Rations</ItemName>
+<Weight>1.0</Weight>
+<Quantity>20</Quantity>
+<Location>Backpack</Location>
+<Cost>0.5</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>9</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Rope, Silk</ItemName>
+<Weight>5.0</Weight>
+<Quantity>2</Quantity>
+<Location>Backpack</Location>
+<Cost>10</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>10</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Grappling hook</ItemName>
+<Weight>4.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>1gp</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>11</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Climber's Kit</ItemName>
+<Weight>5.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>80</Cost>
+<Notes>MW(+4 to climb)</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>12</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Flint & Steel</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>1</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>13</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Whetstone</ItemName>
+<Weight>1.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>2cp</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>14</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Antitoxin (vial)</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>50</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>15</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName><<<<<-----POTION BELT----->>>>></ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>16</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Potion Belt</ItemName>
+<Weight>1.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>60</Cost>
+<Notes>Holds 10 Potions.  Free action to retrieve.</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>17</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Antitoxin (vial)</ItemName>
+<Weight>0.0</Weight>
+<Quantity>4</Quantity>
+<Location>Potion Belt</Location>
+<Cost>50</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>18</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Blur: 20%miss 3 min</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>19</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>CSW 3d8+6</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>20</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Spider Climb</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>21</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Enlarge</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>22</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Tongues</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>23</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName>Potion</ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Potion Belt</Location>
+<Cost>0</Cost>
+<Notes>Protection from Arrows</Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>24</Position>
+</PlayerItems>
+<PlayerItems><PlayerId>1574</PlayerId>
+<ItemName><<<<<-----Items Carried for Hank----->>>>></ItemName>
+<Weight>0.0</Weight>
+<Quantity>1</Quantity>
+<Location>Backpack</Location>
+<Cost>0</Cost>
+<Notes></Notes>
+<Dropped>false</Dropped>
+<HasMod>false</HasMod>
+<ModType>null</ModType>
+<Position>25</Position>
+</PlayerItems>
+<Weapon>
+<Id>96</Id>
+<Name>Greatsword</Name>
+<Cost>50gp</Cost>
+<Damage>2d6</Damage>
+<Crit>null</Crit>
+<Range>-</Range>
+<Weight>15</Weight>
+<Type>Slashing</Type>
+<Size>Large</Size>
+<Category>Martial</Category>
+<Rangedmelee>Melee</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1></Notes1>
+<Notes2></Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Sword</FeatClass>
+<Bonus>4</Bonus>
+<Description>Greatsword :  DMG 2d6
+ CRIT 19-20/x2
+ RANGE -
+ TYPE Martial Melee
+ SOURCE PHB (3.0)
+ NOTES : 
+
+Upon command, a flaming weapon is sheathed in acid. The acid does not harm the hands that hold the weapon. Acid weapons deal +1d6 points of bonus acid damage on a successful hit. Bows, crossbows, and slings so enchanted bestow the acid energy upon their ammunition.
+Caster Level: 8th; Prerequisites: Craft Magic Arms and Armor and Melf's Acid Arow, Acid Orbs, or Acid Spray; Market Price: +1 bonus.
+null
+null
+null
+null
+null</Description>
+<Ability1>57</Ability1>
+<Intelligent>false</Intelligent>
+<Category>Martial</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>3669</InstanceId>
+<Use>Two Handed</Use>
+<Notes>Telepathic Special Sword, has 10 ranks in Spot, Darkness 3/day, Daze Monster 3/day DC25 will save</Notes>
+<Quantity>1</Quantity>
+<Order>1</Order>
+<CritOverride>false</CritOverride>
+<CritStart>19</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>2</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+<WeaponViews>
+<PlayerWeaponId>3669</PlayerWeaponId>
+<FeatId>423</FeatId>
+</WeaponViews>
+<WeaponViews>
+<PlayerWeaponId>3669</PlayerWeaponId>
+<FeatId>409</FeatId>
+</WeaponViews>
+</Weapon>
+<Weapon>
+<Id>96</Id>
+<Name>Greatsword</Name>
+<Cost>50gp</Cost>
+<Damage>2d6</Damage>
+<Crit>null</Crit>
+<Range>-</Range>
+<Weight>15</Weight>
+<Type>Slashing</Type>
+<Size>Large</Size>
+<Category>Martial</Category>
+<Rangedmelee>Melee</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1></Notes1>
+<Notes2></Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Sword</FeatClass>
+<Bonus>0</Bonus>
+<Description>Greatsword :  DMG 2d6
+ CRIT 19-20/x2
+ RANGE -
+ TYPE Martial Melee
+ SOURCE PHB (3.0)
+ NOTES : 
+
+null
+null
+null
+null
+null
+null</Description>
+<Intelligent>false</Intelligent>
+<Category>Martial</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>3670</InstanceId>
+<Use>Two Handed</Use>
+<Notes></Notes>
+<Quantity>1</Quantity>
+<Order>2</Order>
+<CritOverride>false</CritOverride>
+<CritStart>19</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>2</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>133</Id>
+<Name>Light hammer</Name>
+<Cost>1gp</Cost>
+<Damage>1d4</Damage>
+<Crit>null</Crit>
+<Range>20ft</Range>
+<Weight>2</Weight>
+<Type>Blunt</Type>
+<Size>Small</Size>
+<Category>Martial</Category>
+<Rangedmelee>Melee</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1>null</Notes1>
+<Notes2>null</Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Hammer</FeatClass>
+<Bonus></Bonus>
+<Description>Light hammer :  DMG 1d4
+ CRIT x2
+ RANGE 20ft
+ TYPE Martial Melee
+ SOURCE Players Handbook
+ NOTES : null
+
+null
+null
+null
+null
+null
+null</Description>
+<Intelligent>false</Intelligent>
+<Category>Martial</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>3671</InstanceId>
+<Use>Normal</Use>
+<Notes></Notes>
+<Quantity>1</Quantity>
+<Order>3</Order>
+<CritOverride>false</CritOverride>
+<CritStart>20</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>2</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>115</Id>
+<Name>Heavy mace</Name>
+<Cost>12gp</Cost>
+<Damage>1d8</Damage>
+<Crit>null</Crit>
+<Range>-</Range>
+<Weight>12</Weight>
+<Type>Blunt</Type>
+<Size>Medium</Size>
+<Category>Simple</Category>
+<Rangedmelee>Melee</Rangedmelee>
+<Source>PHB (3.0)</Source>
+<Notes1></Notes1>
+<Notes2></Notes2>
+<Exclude>N</Exclude>
+<FeatClass>Mace</FeatClass>
+<Bonus>0</Bonus>
+<Description>Heavy mace :  DMG 1d8
+ CRIT x2
+ RANGE -
+ TYPE Simple Melee
+ SOURCE PHB (3.0)
+ NOTES : 
+
+null
+null
+null
+null
+null
+null</Description>
+<Intelligent>false</Intelligent>
+<Category>Simple</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>3672</InstanceId>
+<Use>Two Handed</Use>
+<Notes>Grey Spikey Scepter of the DrakVath - Rod of Security (paradise)</Notes>
+<Quantity>1</Quantity>
+<Order>4</Order>
+<CritOverride>false</CritOverride>
+<CritStart>20</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>2</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>1662</Id>
+<Name>Claw Attack</Name>
+<Cost>0</Cost>
+<Damage>1d6</Damage>
+<Crit>null</Crit>
+<Range>-</Range>
+<Weight>0</Weight>
+<Type>Piercing</Type>
+<Size>Large</Size>
+<Category>Simple</Category>
+<Rangedmelee>Melee</Rangedmelee>
+<Source>House Rule (Eric)</Source>
+<Notes1>Bitey Boy's Claw</Notes1>
+<Notes2></Notes2>
+<Exclude></Exclude>
+<FeatClass>Unarmed</FeatClass>
+<Bonus>0</Bonus>
+<Description>Claw Attack :  DMG 1d6
+ CRIT 20-20/x2
+ RANGE -
+ TYPE Simple Melee
+ SOURCE House Rule (Eric)
+ NOTES : Bitey Boy's Claw
+
+null
+null
+null
+null
+null
+null</Description>
+<Intelligent>false</Intelligent>
+<Category>Simple</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>3673</InstanceId>
+<Use>Normal</Use>
+<Notes>I have 2 claw attacks</Notes>
+<Quantity>1</Quantity>
+<Order>5</Order>
+<CritOverride>false</CritOverride>
+<CritStart>20</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>2</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<Weapon>
+<Id>1661</Id>
+<Name>Bite Attack (Large)</Name>
+<Cost>0</Cost>
+<Damage>1d8</Damage>
+<Crit>null</Crit>
+<Range>-</Range>
+<Weight>0</Weight>
+<Type>Piercing</Type>
+<Size>Large</Size>
+<Category>Simple</Category>
+<Rangedmelee>Melee</Rangedmelee>
+<Source>House Rule (Eric)</Source>
+<Notes1>Bitey Boy's Bite</Notes1>
+<Notes2></Notes2>
+<Exclude></Exclude>
+<FeatClass>Unarmed</FeatClass>
+<Bonus>0</Bonus>
+<Description>Bite Attack (Large) :  DMG 1d8
+ CRIT 20-20/x2
+ RANGE -
+ TYPE Simple Melee
+ SOURCE House Rule (Eric)
+ NOTES : Bitey Boy's Bite
+
+null
+null
+null
+null
+null
+null</Description>
+<Intelligent>false</Intelligent>
+<Category>Simple</Category>
+<DisplayType>weapon</DisplayType>
+<Masterwork>true</Masterwork>
+<InstanceId>3674</InstanceId>
+<Use>Normal</Use>
+<Notes></Notes>
+<Quantity>1</Quantity>
+<Order>6</Order>
+<CritOverride>false</CritOverride>
+<CritStart>20</CritStart>
+<CritEnd>20</CritEnd>
+<CritMult>2</CritMult>
+<UseMonk>false</UseMonk>
+<DisplaySheet>true</DisplaySheet>
+<DisplayItem>true</DisplayItem>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+</Weapon>
+<PlayerHp>
+<Id>8782</Id>
+<Level>1</Level>
+<HitPoints>10</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8783</Id>
+<Level>2</Level>
+<HitPoints>10</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8784</Id>
+<Level>3</Level>
+<HitPoints>8</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8785</Id>
+<Level>4</Level>
+<HitPoints>9</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8786</Id>
+<Level>5</Level>
+<HitPoints>9</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8787</Id>
+<Level>6</Level>
+<HitPoints>9</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8788</Id>
+<Level>7</Level>
+<HitPoints>8</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8789</Id>
+<Level>8</Level>
+<HitPoints>9</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8790</Id>
+<Level>9</Level>
+<HitPoints>10</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8791</Id>
+<Level>10</Level>
+<HitPoints>9</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerHp>
+<Id>8792</Id>
+<Level>11</Level>
+<HitPoints>8</HitPoints>
+<ClassId>1</ClassId>
+<ClassName>Fighter</ClassName>
+</PlayerHp>
+<PlayerTempMod>
+<Id>1229</Id>
+<PlayerId>1574</PlayerId>
+<Name>Boots</Name>
+<ModType>Haste</ModType>
+<LinkType>Item</LinkType>
+<LinkId>16527</LinkId>
+<StrMod>null</StrMod>
+<ConMod>null</ConMod>
+<DexMod>null</DexMod>
+<IntMod>null</IntMod>
+<WisMod>null</WisMod>
+<ChaMod>null</ChaMod>
+<StrCheckMod>0</StrCheckMod>
+<ConCheckMod>0</ConCheckMod>
+<DexCheckMod>0</DexCheckMod>
+<IntCheckMod>0</IntCheckMod>
+<WisCheckMod>0</WisCheckMod>
+<ChaCheckMod>0</ChaCheckMod>
+<NatMod>null</NatMod>
+<AcMod>4</AcMod>
+<RestMod>4</RestMod>
+<TouchMod>4</TouchMod>
+<MeleeMod>null</MeleeMod>
+<RangeMod>null</RangeMod>
+<DamageMod>null</DamageMod>
+<FortMod>null</FortMod>
+<RefMod>null</RefMod>
+<WillMod>null</WillMod>
+<Conditional>false</Conditional>
+<AttackMod>1</AttackMod>
+</PlayerTempMod>
+<PlayerTempMod>
+<Id>1230</Id>
+<PlayerId>1574</PlayerId>
+<Name>Tattoo</Name>
+<ModType>Inherent</ModType>
+<LinkType></LinkType>
+<LinkId></LinkId>
+<StrMod>4</StrMod>
+<ConMod>2</ConMod>
+<DexMod>null</DexMod>
+<IntMod>2</IntMod>
+<WisMod>null</WisMod>
+<ChaMod>null</ChaMod>
+<StrCheckMod>0</StrCheckMod>
+<ConCheckMod>0</ConCheckMod>
+<DexCheckMod>0</DexCheckMod>
+<IntCheckMod>0</IntCheckMod>
+<WisCheckMod>0</WisCheckMod>
+<ChaCheckMod>0</ChaCheckMod>
+<NatMod>1</NatMod>
+<AcMod>null</AcMod>
+<RestMod>null</RestMod>
+<TouchMod>null</TouchMod>
+<MeleeMod>null</MeleeMod>
+<RangeMod>null</RangeMod>
+<DamageMod>null</DamageMod>
+<FortMod>null</FortMod>
+<RefMod>null</RefMod>
+<WillMod>null</WillMod>
+<Conditional>false</Conditional>
+<AttackMod>0</AttackMod>
+</PlayerTempMod>
+<PlayerTempMod>
+<Id>1231</Id>
+<PlayerId>1574</PlayerId>
+<Name>Belt</Name>
+<ModType>Enhancement</ModType>
+<LinkType>Item</LinkType>
+<LinkId>18248</LinkId>
+<StrMod>4</StrMod>
+<ConMod>null</ConMod>
+<DexMod>null</DexMod>
+<IntMod>null</IntMod>
+<WisMod>null</WisMod>
+<ChaMod>null</ChaMod>
+<StrCheckMod>0</StrCheckMod>
+<ConCheckMod>0</ConCheckMod>
+<DexCheckMod>0</DexCheckMod>
+<IntCheckMod>0</IntCheckMod>
+<WisCheckMod>0</WisCheckMod>
+<ChaCheckMod>0</ChaCheckMod>
+<NatMod>null</NatMod>
+<AcMod>null</AcMod>
+<RestMod>null</RestMod>
+<TouchMod>null</TouchMod>
+<MeleeMod>null</MeleeMod>
+<RangeMod>null</RangeMod>
+<DamageMod>null</DamageMod>
+<FortMod>null</FortMod>
+<RefMod>null</RefMod>
+<WillMod>null</WillMod>
+<Conditional>false</Conditional>
+<AttackMod>0</AttackMod>
+</PlayerTempMod>
+<PlayerFeats>
+<Id>7351</Id>
+<FeatId>423</FeatId>
+<FeatMod>Sword</FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7352</Id>
+<FeatId>361</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7353</Id>
+<FeatId>409</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7354</Id>
+<FeatId>279</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7355</Id>
+<FeatId>425</FeatId>
+<FeatMod>Sword</FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7356</Id>
+<FeatId>316</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7357</Id>
+<FeatId>1263</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7358</Id>
+<FeatId>416</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7359</Id>
+<FeatId>424</FeatId>
+<FeatMod>Sword</FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7360</Id>
+<FeatId>339</FeatId>
+<FeatMod>Sword</FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerFeats>
+<Id>7361</Id>
+<FeatId>413</FeatId>
+<FeatMod></FeatMod>
+<Override>N</Override>
+<Special>N</Special>
+</PlayerFeats>
+<PlayerSkill>
+<Id>13238</Id>
+<SkillId>5</SkillId>
+<Ranks>10</Ranks>
+<ClassId>1</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13239</Id>
+<SkillId>7</SkillId>
+<Ranks>12</Ranks>
+<ClassId>1</ClassId>
+<Mods>0</Mods>
+<Misc>4</Misc>
+<Notes>Kit</Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13240</Id>
+<SkillId>14</SkillId>
+<Ranks>0</Ranks>
+<ClassId>1</ClassId>
+<Mods>0</Mods>
+<Misc>10</Misc>
+<Notes>Armor</Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13241</Id>
+<SkillId>23</SkillId>
+<Ranks>14</Ranks>
+<ClassId>1</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13242</Id>
+<SkillId>34</SkillId>
+<Ranks>2</Ranks>
+<ClassId>1</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13243</Id>
+<SkillId>36</SkillId>
+<Ranks>0</Ranks>
+<ClassId>1</ClassId>
+<Mods>1</Mods>
+<Misc>0</Misc>
+<Notes>So he can speak Draconic</Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13244</Id>
+<SkillId>38</SkillId>
+<Ranks>0</Ranks>
+<ClassId>1</ClassId>
+<Mods>0</Mods>
+<Misc>10</Misc>
+<Notes>Sword</Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerSkill>
+<Id>13245</Id>
+<SkillId>39</SkillId>
+<Ranks>5</Ranks>
+<ClassId>1</ClassId>
+<Mods>0</Mods>
+<Misc>0</Misc>
+<Notes></Notes>
+<EffectiveRanks>null</EffectiveRanks>
+<CrossClassOverride>N</CrossClassOverride>
+</PlayerSkill>
+<PlayerLanguage>
+<Id>2400</Id>
+<Language>Draconic</Language>
+</PlayerLanguage>
+<PlayerArmor>
+<InstanceId>4212</InstanceId>
+<ArmorId>12</ArmorId>
+<ArmorType>armor</ArmorType>
+<Description></Description>
+<Bonus>4</Bonus>
+<Ability1>null</Ability1>
+<Ability2>null</Ability2>
+<AtRest>N</AtRest>
+<Name>Full Plate</Name>
+<PlayerId>null</PlayerId>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+<ArcaneFail>35</ArcaneFail><Source>null</Source></PlayerArmor>
+<PlayerArmor>
+<InstanceId>4213</InstanceId>
+<ArmorId>20</ArmorId>
+<ArmorType>Shield</ArmorType>
+<Description></Description>
+<Bonus>0</Bonus>
+<Ability1>null</Ability1>
+<Ability2>null</Ability2>
+<AtRest>null</AtRest>
+<Name>No Shield</Name>
+<PlayerId>null</PlayerId>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+<ArcaneFail>0</ArcaneFail><Source>null</Source></PlayerArmor>
+<PlayerArmor>
+<InstanceId>4214</InstanceId>
+<ArmorId>19</ArmorId>
+<ArmorType>armor</ArmorType>
+<Description></Description>
+<Bonus>0</Bonus>
+<Ability1>null</Ability1>
+<Ability2>null</Ability2>
+<AtRest>Y</AtRest>
+<Name>No Armor</Name>
+<PlayerId>null</PlayerId>
+<Materials>
+<Id>5</Id>
+<MaterialName>Normal</MaterialName>
+<Description></Description>
+<WeightCalc>1.0</WeightCalc>
+</Materials>
+<ArcaneFail>0</ArcaneFail><Source>null</Source></PlayerArmor>
+<StatBlock>
+<Str>20</Str>
+<Wis>8</Wis>
+<Dex>15</Dex>
+<Con>17</Con>
+<Cha>12</Cha>
+<Intel>8</Intel>
+<LevelStr>2</LevelStr>
+<LevelDex>0</LevelDex>
+<LevelInt>0</LevelInt>
+<LevelCon>0</LevelCon>
+<LevelWis>0</LevelWis>
+<LevelCha>0</LevelCha>
+<MiscStr>0</MiscStr>
+<MiscDex>0</MiscDex>
+<MiscCon>0</MiscCon>
+<MiscInt>0</MiscInt>
+<MiscWis>0</MiscWis>
+<MiscCha>0</MiscCha>
+<BookStr>0</BookStr>
+<BookDex>0</BookDex>
+<BookCon>0</BookCon>
+<BookInt>0</BookInt>
+<BookWis>0</BookWis>
+<BookCha>0</BookCha>
+<MiscStrText>null</MiscStrText>
+<MiscDexText>null</MiscDexText>
+<MiscConText>null</MiscConText>
+<MiscIntText>null</MiscIntText>
+<MiscWisText>null</MiscWisText>
+<MiscChaText>null</MiscChaText>
+</StatBlock>
+<SaveBlock>
+<Fort>7</Fort>
+<Will>3</Will>
+<Ref>3</Ref>
+<MiscFort>0</MiscFort>
+<MiscRef>0</MiscRef>
+<MiscWill>0</MiscWill>
+<MiscFortText></MiscFortText>
+<MiscRefText></MiscRefText>
+<MiscWillText></MiscWillText>
+</SaveBlock>
+<MoneyBlock>
+<Pp>0</Pp>
+<Gp>10</Gp>
+<Sp>0</Sp>
+<Cp>0</Cp>
+<StoredGold>0</StoredGold>
+</MoneyBlock>
+</DCharacter>
