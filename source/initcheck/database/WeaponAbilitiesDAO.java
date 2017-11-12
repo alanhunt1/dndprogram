@@ -175,17 +175,17 @@ public class WeaponAbilitiesDAO extends InitBaseDAO implements LibraryItemDAO {
 		}
 	}
 
-	@SuppressWarnings("unchecked")
+
 	public WeaponAbilities getWeaponAbility(String id) {
 		if (abilityHash == null) {
-			abilityHash = new HashMap();
+			abilityHash = new HashMap<String, Object>();
 		}
 		Object o = abilityHash.get(id);
 		if (o == null) {
 			WeaponAbilities w = new WeaponAbilities();
 			
 			w.setId(id);
-			Vector v = selectWeaponAbilities(w);
+			Vector<?> v = selectWeaponAbilities(w);
 			if (v.size() > 0) {				
 				o = v.get(0);
 				abilityHash.put(id, o);

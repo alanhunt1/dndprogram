@@ -23,8 +23,8 @@ public class IndividSpellDialog extends JDialog {
 	static final long serialVersionUID = 1;
 		private JButton closeButton = new JButton("Apply");
 		private JButton cancelButton = new JButton("Cancel");
-		private JComboBox statusChoices;
-		private JComboBox affected;
+		private JComboBox<String> statusChoices;
+		private JComboBox<String> affected;
 		private JTextField duration;
 		private InitServer owner;
 		
@@ -34,13 +34,13 @@ public class IndividSpellDialog extends JDialog {
 
 				this.owner = owner;
 				
-				statusChoices = new JComboBox();
+				statusChoices = new JComboBox<String>();
 				statusChoices.addItem("Bless");
 				statusChoices.addItem("Curse");
 				statusChoices.addItem("Silence");
 				statusChoices.addItem("Chant");
 				
-				affected = new JComboBox();
+				affected = new JComboBox<String>();
 				affected.addItem("All Participants");
 				affected.addItem("Characters Only");
 				affected.addItem("Monsters Only");

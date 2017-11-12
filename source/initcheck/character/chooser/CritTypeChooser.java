@@ -2,7 +2,7 @@ package initcheck.character.chooser;
 
 import javax.swing.JComboBox;
 
-public class CritTypeChooser extends JComboBox {
+public class CritTypeChooser extends JComboBox<Object> {
 
 	private static final long serialVersionUID = 1L;
 

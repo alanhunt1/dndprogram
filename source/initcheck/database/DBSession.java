@@ -106,14 +106,9 @@ public class DBSession {
 		}
 
 		public void open() {
-			final String fileName = "player.mdb";
 				
 				try {
-				    //Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
-				    //String url = "jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};DBQ="+fileName;
-				    //con = DriverManager.getConnection(url,"","");
-				    
-				    //dbConn=DriverManager.getConnection("jdbc:ucanaccess://"+fileName); 
+				  
 					Class.forName("com.mysql.jdbc.Driver");  
 				    dbConn =
 				    	       DriverManager.getConnection("jdbc:mysql://localhost/player?autoReconnect=true&useSSL=false&" +

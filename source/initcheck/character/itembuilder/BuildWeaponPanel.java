@@ -25,7 +25,7 @@ public class BuildWeaponPanel extends GridPanel {
 
 	private static final long serialVersionUID = 1L;
 
-	JComboBox ac = new WeaponChooser();
+	JComboBox<?> ac = new WeaponChooser();
 
 	JTextField bonus = new JTextField(3);
 
@@ -53,7 +53,7 @@ public class BuildWeaponPanel extends GridPanel {
 
 	JLabel prereqLabel = new JLabel("");
 
-	JList prereqList = new JList();
+	JList<String> prereqList = new JList<String>();
 
 	Vector<String> prereqs = new Vector<String>();
 

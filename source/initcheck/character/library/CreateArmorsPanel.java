@@ -68,7 +68,7 @@ public class CreateArmorsPanel extends TiledDialog {
 
 	private ArmorTypeChooser atc = new ArmorTypeChooser();
 
-	private JComboBox gradeChooser;
+	private JComboBox<?> gradeChooser;
 
 	JPanel typePanel = new JPanel();
 

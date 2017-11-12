@@ -37,7 +37,7 @@ public class FeatEffectPanel extends TiledGridPanel {
 
 	private static final long serialVersionUID = 1L;
 
-	private TiledList<TiledListItem> effectList = new TiledList();
+	private TiledList<TiledListItem> effectList = new TiledList<TiledListItem>();
 	
 	private JScrollPane effectScroll = new JScrollPane(effectList);
 	
@@ -55,7 +55,7 @@ public class FeatEffectPanel extends TiledGridPanel {
 	
 	private Vector<FeatEffects> effect = new Vector<FeatEffects>();	
 	
-	private JComboBox reqName = new JComboBox();
+	private JComboBox<?> reqName = new JComboBox<Object>();
 	
 	public FeatEffectPanel(){
 		super("images/rockLighter.jpg");

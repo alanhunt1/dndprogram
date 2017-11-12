@@ -31,11 +31,11 @@ public class FontDialog extends TiledGridPanel implements Serializable,
 
 	private JList<String> playerList = null;
 
-	private JComboBox fontStyle = new JComboBox();
+	private JComboBox<String> fontStyle = new JComboBox<String>();
 
 	private JSpinner fontSize = new JSpinner();
 
-	private JComboBox fontSizeChooser = new JComboBox();
+	private JComboBox<String> fontSizeChooser = new JComboBox<String>();
 
 	private JTextField sampleText = new JTextField("Sample Text");
 
@@ -53,7 +53,7 @@ public class FontDialog extends TiledGridPanel implements Serializable,
 
 		String[] fonts = ge.getAvailableFontFamilyNames();
 
-		playerList = new JList(fonts);
+		playerList = new JList<String>(fonts);
 		playerList.setCellRenderer(new DefaultListCellRenderer());
 		playerList.setFont(defaultFont);
 		playerList.setBackground(Color.lightGray);

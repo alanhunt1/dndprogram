@@ -1,0 +1,49 @@
+2017-11-11 21:11:39,707 [main] DEBUG initcheck.MapEditor  - CREATING COMPONENTS
+2017-11-11 21:11:39,900 [main] DEBUG initcheck.dungeon.MapEditorDungeonGUI  - init dungeon
+2017-11-11 21:11:39,905 [main] DEBUG initcheck.dungeon.DrawingBoard  - LOADING DUNGEON
+2017-11-11 21:11:40,388 [main] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM ROOM_DESCRIPTION   WHERE  DESC_TYPE = 'Lighting' 
+2017-11-11 21:11:40,428 [main] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MAP_TYPES  
+2017-11-11 21:11:47,855 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MONSTER_ATTACKS   ORDER BY MONSTER_ID 
+2017-11-11 21:11:47,895 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E ORDER BY NAME
+2017-11-11 21:11:47,895 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E ORDER BY NAME
+2017-11-11 21:11:49,801 [AWT-EventQueue-0] DEBUG initcheck.dungeon.Dungeon  - put lvl 1 entry at 38 by 39
+2017-11-11 21:11:49,802 [AWT-EventQueue-0] DEBUG initcheck.dungeon.Dungeon  - Starting in cell [27][19][0]
+2017-11-11 21:11:50,119 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM ROOM_DESCRIPTION   WHERE  DESC_TYPE = 'Ceiling' 
+2017-11-11 21:11:50,130 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM ROOM_DESCRIPTION   WHERE  DESC_TYPE = 'Smell' 
+2017-11-11 21:11:50,148 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 4 OR CHALLENGE LIKE '4.%'
+2017-11-11 21:11:50,148 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 4 OR CHALLENGE LIKE '4.%'
+2017-11-11 21:11:50,157 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 4 OR CHALLENGE LIKE '4.%'
+2017-11-11 21:11:50,157 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 4 OR CHALLENGE LIKE '4.%'
+2017-11-11 21:11:50,166 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 4 OR CHALLENGE LIKE '4.%'
+2017-11-11 21:11:50,166 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 4 OR CHALLENGE LIKE '4.%'
+2017-11-11 21:11:50,222 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM ROOM_DESCRIPTION   WHERE  DESC_TYPE = 'Floor' 
+2017-11-11 21:11:50,230 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM ROOM_DESCRIPTION   WHERE  DESC_TYPE = 'Sounds' 
+2017-11-11 21:11:50,236 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM ROOM_DESCRIPTION   WHERE  DESC_TYPE = 'Contents' 
+2017-11-11 21:11:50,311 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,311 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,329 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,329 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,339 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,339 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,347 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,347 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,481 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,482 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,511 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM ROOM_DESCRIPTION   WHERE  DESC_TYPE = 'Lighting' 
+2017-11-11 21:11:50,522 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 1 OR CHALLENGE LIKE '1.%'
+2017-11-11 21:11:50,522 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 1 OR CHALLENGE LIKE '1.%'
+2017-11-11 21:11:50,530 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 1 OR CHALLENGE LIKE '1.%'
+2017-11-11 21:11:50,530 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 1 OR CHALLENGE LIKE '1.%'
+2017-11-11 21:11:50,536 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 1 OR CHALLENGE LIKE '1.%'
+2017-11-11 21:11:50,536 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 1 OR CHALLENGE LIKE '1.%'
+2017-11-11 21:11:50,604 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM ROOM_DESCRIPTION   WHERE  DESC_TYPE = 'Walls' 
+2017-11-11 21:11:50,666 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 3 OR CHALLENGE LIKE '3.%'
+2017-11-11 21:11:50,666 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 3 OR CHALLENGE LIKE '3.%'
+2017-11-11 21:11:50,672 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 3 OR CHALLENGE LIKE '3.%'
+2017-11-11 21:11:50,672 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 3 OR CHALLENGE LIKE '3.%'
+2017-11-11 21:11:50,679 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 3 OR CHALLENGE LIKE '3.%'
+2017-11-11 21:11:50,679 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 3 OR CHALLENGE LIKE '3.%'
+2017-11-11 21:11:50,684 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 3 OR CHALLENGE LIKE '3.%'
+2017-11-11 21:11:50,685 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 3 OR CHALLENGE LIKE '3.%'
+2017-11-11 21:11:50,716 [AWT-EventQueue-0] DEBUG initcheck.database.MonsterDAO  - SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'
+2017-11-11 21:11:50,717 [AWT-EventQueue-0] DEBUG initcheck.database.DBSession  - Executing Query : SELECT * FROM MM3E WHERE CHALLENGE = 0 OR CHALLENGE LIKE '0.%'

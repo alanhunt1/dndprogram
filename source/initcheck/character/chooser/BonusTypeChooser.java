@@ -2,7 +2,7 @@ package initcheck.character.chooser;
 
 import javax.swing.JComboBox;
 
-public class BonusTypeChooser extends JComboBox {
+public class BonusTypeChooser extends JComboBox<Object> {
 
 	private static final long serialVersionUID = 1L;
 

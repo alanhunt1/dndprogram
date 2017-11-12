@@ -17,13 +17,13 @@ public class ParsePrereq{
 		
 		@SuppressWarnings("unchecked")
 		public void process(){
-				Hashtable hash = new Hashtable();
+				Hashtable<String, String> hash = new Hashtable<String, String>();
 				FeatPrereqDAO fdb = new FeatPrereqDAO();
 				FeatDAO fedb = new FeatDAO();
-				Vector v = fedb.getFeats();
+				Vector<Feat> v = fedb.getFeats();
 				for (int i = 0; i < v.size(); i++){
 						Feat f = (Feat)v.get(i);
-						Vector fp = fdb.getFeatPrereqs(f.getId());
+						Vector<FeatPrereq> fp = fdb.getFeatPrereqs(f.getId());
 
 						String desc = f.getDescription();
 						int idx = desc.indexOf("Prereq");

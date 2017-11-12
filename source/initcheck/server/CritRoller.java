@@ -20,7 +20,7 @@ import javax.swing.JComboBox;
 public class CritRoller extends TiledGridPanel {
 	static final long serialVersionUID = 1;
 
-	private JComboBox critType = new JComboBox();
+	private JComboBox<String> critType = new JComboBox<String>();
 	private PanelButton roll = new PanelButton("Roll Crit");
 	private Random rnd = new Random();
 

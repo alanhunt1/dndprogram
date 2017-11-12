@@ -12,7 +12,7 @@ import initcheck.graphics.TiledListItem;
 import initcheck.status.StatusItem;
 import initcheck.utils.StrManip;
 
-public class Participant implements Serializable, Cloneable, Comparable, EncounterElement, TiledListItem {
+public class Participant implements Serializable, Cloneable, Comparable<Object>, EncounterElement, TiledListItem {
 	static final long serialVersionUID = 1;
 	protected final static int DEFAULT = 0;
 

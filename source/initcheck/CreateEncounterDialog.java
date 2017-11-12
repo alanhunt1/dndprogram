@@ -27,9 +27,9 @@ public class CreateEncounterDialog extends TiledDialog{
 		private PanelButton genButton;
 		private PanelButton okButton;
 		private PanelButton cancelButton;
-		private JComboBox difficulty = new JComboBox();
-		private JComboBox monsterCount = new JComboBox();
-		private JComboBox monsterType = new JComboBox();
+		private JComboBox<String> difficulty = new JComboBox<String>();
+		private JComboBox<String> monsterCount = new JComboBox<String>();
+		private JComboBox<String> monsterType = new JComboBox<String>();
 		private JTextField partyLevelStr = new JTextField(5);
 		private InitServer owner;
 		private Random rnd = new Random();

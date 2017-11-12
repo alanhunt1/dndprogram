@@ -27,11 +27,10 @@
 	<classpathentry kind="lib" path="lib/oro-2.0.7.jar"/>
 	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/util.jar"/>
-	<classpathentry kind="lib" path="C:/source/source/lib/hsqldb.jar"/>
-	<classpathentry kind="lib" path="C:/source/source/lib/jackcess-2.1.3.jar"/>
-	<classpathentry kind="lib" path="C:/source/source/initcheck/utils/ucanaccess-3.0.4.jar"/>
-	<classpathentry kind="lib" path="C:/source/source/lib/commons-lang-2.6.jar"/>
-	<classpathentry kind="lib" path="C:/source/source/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alan/Documents/GitHub/dndprogram/source/lib/hsqldb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alan/Documents/GitHub/dndprogram/source/lib/jackcess-2.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alan/Documents/GitHub/dndprogram/source/lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Alan/Documents/GitHub/dndprogram/source/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path=""/>
 </classpath>

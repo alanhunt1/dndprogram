@@ -8,7 +8,7 @@ import java.util.Vector;
 
 import javax.swing.JComboBox;
 
-public class ArmorAbilityChooser extends JComboBox {
+public class ArmorAbilityChooser extends JComboBox<Object> {
 	private static final long serialVersionUID = 1L;
 
 	public ArmorAbilityChooser() {

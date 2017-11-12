@@ -13,7 +13,7 @@ import java.awt.geom.RoundRectangle2D;
 
 import javax.swing.JComponent;
 
-import com.sun.java.swing.plaf.nimbus.AbstractRegionPainter;
+import javax.swing.plaf.nimbus.AbstractRegionPainter;
 
 /**
  */

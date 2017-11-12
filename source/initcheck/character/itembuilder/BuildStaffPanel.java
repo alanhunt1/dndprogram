@@ -21,7 +21,7 @@ public class BuildStaffPanel extends GridPanel {
 
 	private static final long serialVersionUID = 1L;
 
-	JComboBox ac = new StaffChooser();
+	JComboBox<?> ac = new StaffChooser();
 
 	JLabel baseCostLabel = new JLabel("");
 
@@ -37,7 +37,7 @@ public class BuildStaffPanel extends GridPanel {
 
 	JLabel prereqLabel = new JLabel("");
 
-	JList prereqList = new JList();
+	JList<String> prereqList = new JList<String>();
 
 	Vector<String> prereqs = new Vector<String>();
 

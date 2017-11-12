@@ -21,7 +21,7 @@ public class BuildRingPanel extends GridPanel {
 
 	private static final long serialVersionUID = 1L;
 
-	JComboBox ac = new RingChooser();
+	JComboBox<?> ac = new RingChooser();
 
 	JLabel baseCostLabel = new JLabel("");
 
@@ -37,7 +37,7 @@ public class BuildRingPanel extends GridPanel {
 
 	JLabel prereqLabel = new JLabel("");
 
-	JList prereqList = new JList();
+	JList<String> prereqList = new JList<String>();
 
 	Vector<String> prereqs = new Vector<String>();
 

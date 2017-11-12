@@ -61,7 +61,7 @@ public class CreateFeatPanel extends TiledDialog {
 
 	private JTextField metamagicPrefix = new JTextField(15);
 
-	private JComboBox featType = new JComboBox();
+	private JComboBox<String> featType = new JComboBox<String>();
 
 	private JCheckBox checkHp = new JCheckBox("HP Feat");
 

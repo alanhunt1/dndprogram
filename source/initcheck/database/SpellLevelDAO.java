@@ -408,11 +408,11 @@ public class SpellLevelDAO extends InitBaseDAO {
 		return v;
 	}
 
-	@SuppressWarnings("unchecked")
+	
 	public SpellLevel getBonusSpells(int bonus) {
 
 		if (bonusHash == null) {
-			bonusHash = new HashMap();
+			bonusHash = new HashMap<Integer, SpellLevel>();
 		}
 
 		Object o = bonusHash.get(bonus);

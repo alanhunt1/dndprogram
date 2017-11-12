@@ -44,7 +44,7 @@ public class CreateRacesPanel extends TiledDialog {
 
 	private JScrollPane descScroll = new JScrollPane(description);
 
-	private JList abilityList = new JList();
+	private JList<RacialAbility> abilityList = new JList<RacialAbility>();
 
 	private JScrollPane abilityScroll = new JScrollPane(abilityList);
 
@@ -58,9 +58,9 @@ public class CreateRacesPanel extends TiledDialog {
 
 	private JTextField favoredClass = new JTextField(20);
 
-	private JComboBox abType = new ExtraChooser();
+	private JComboBox<?> abType = new ExtraChooser();
 
-	private JComboBox abType2 = new ExtraTimingChooser();
+	private JComboBox<?> abType2 = new ExtraTimingChooser();
 
 	private JTextField abVal = new JTextField(5);
 

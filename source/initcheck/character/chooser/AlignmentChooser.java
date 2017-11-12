@@ -2,7 +2,7 @@ package initcheck.character.chooser;
 
 import javax.swing.JComboBox;
 
-public class AlignmentChooser extends JComboBox {
+public class AlignmentChooser extends JComboBox<Object> {
 	private static final long serialVersionUID = 1L;
 
 	public AlignmentChooser() {

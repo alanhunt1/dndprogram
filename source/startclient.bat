@@ -1,6 +1,6 @@
 rem set JAVA_EXE=.\
-rem set JAVA_EXE=%JAVA_HOME%\bin
-set JAVA_EXE=C:\Program Files (x86)\Java\jre6\bin
+set JAVA_EXE=%JAVA_HOME%\bin
+rem set JAVA_EXE=C:\Program Files (x86)\Java\jre6\bin
 rem set java_exe=c:\glassfish3\jdk\bin
 rem set JAVA_EXE=c:\jdk1.4\jdk\bin
 rem set JAVA_EXE=c:\jdk1.4\bin
@@ -13,5 +13,6 @@ set classpath=%CLASSPATH%;%JAVA_LIB%\jgoodies-common-1.0.0.jar;%JAVA_LIB%\log4j-
 set classpath=%CLASSPATH%;%JAVA_LIB%\jeksparser.jar;%JAVA_LIB%\jekstools.jar;%JAVA_LIB%\slf4j-api-1.6.1.jar
 set classpath=%CLASSPATH%;%JAVA_LIB%\jgroups-3.2.11.Final.jar
 set classpath=%CLASSPATH%;%JAVA_LIB%\rt.jar
+set classpath=%CLASSPATH%;%JAVA_LIB%\mysql-connector-java-5.1.44-bin.jar
 
 "%JAVA_EXE%\java" -ms64M -mx128M -classpath %CLASSPATH%  -Djava.net.preferIPv4Stack=true initcheck.InitClient TESTC

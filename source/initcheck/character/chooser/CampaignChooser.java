@@ -7,7 +7,7 @@ import java.util.Vector;
 
 import javax.swing.JComboBox;
 
-public class CampaignChooser extends JComboBox {
+public class CampaignChooser extends JComboBox<Object> {
 
 	private static final long serialVersionUID = 1L;
 

@@ -287,7 +287,7 @@ public class PlayerManager extends InitBase implements GroupMessageClient {
 
 		Vector<String> playerVector = db.getPlayerNames();
 
-		playerSelect = new JComboBox(playerVector);
+		playerSelect = new JComboBox<String>(playerVector);
 		
 		
 		partySelect.setSelectedIndex(0);

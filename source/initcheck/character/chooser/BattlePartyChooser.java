@@ -6,7 +6,7 @@ import java.util.Vector;
 
 import javax.swing.JComboBox;
 
-public class BattlePartyChooser extends JComboBox {
+public class BattlePartyChooser extends JComboBox<Object> {
 
 	private static final long serialVersionUID = 1L;
 

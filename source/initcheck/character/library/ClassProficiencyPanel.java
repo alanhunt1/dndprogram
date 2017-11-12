@@ -23,7 +23,7 @@ public class ClassProficiencyPanel extends GridPanel {
 
 	private static final long serialVersionUID = 1L;
 
-	private JList classProficiencyList = new JList();
+	private JList<ClassProficiency> classProficiencyList = new JList<ClassProficiency>();
 
 	private JScrollPane proficiencyScroll = new JScrollPane(
 			classProficiencyList);
@@ -38,7 +38,7 @@ public class ClassProficiencyPanel extends GridPanel {
 
 	private ProficiencyTypeChooser proficiencyChooser = new ProficiencyTypeChooser();
 
-	private JComboBox subTypeChooser = new WeaponProfChooser();
+	private JComboBox<?> subTypeChooser = new WeaponProfChooser();
 
 	JPanel buttons = new JPanel();
 

@@ -9,7 +9,7 @@ import java.util.Vector;
 
 public class SpellDAO extends InitBaseDAO implements LibraryItemDAO{
 
-	private static HashMap<String, Vector<SpellLevel>> levelHash = null;
+	private static HashMap<String, Vector<Spell>> levelHash = null;
 
 	private static HashMap<String, Vector<SpellClass>> classHash = null;
 
@@ -214,7 +214,7 @@ public class SpellDAO extends InitBaseDAO implements LibraryItemDAO{
 	@SuppressWarnings("unchecked")
 	public Vector<Spell> getSpells(String level, String cclass) {
 		if (levelHash == null) {
-			levelHash = new HashMap();
+			levelHash = new HashMap<String, Vector<Spell>>();
 		}
 
 		String levelString = cclass + " " + level;
@@ -223,11 +223,11 @@ public class SpellDAO extends InitBaseDAO implements LibraryItemDAO{
 			String selectString = "SELECT s.* FROM SPELLS s, SPELL_CLASSES sc "+
 			"WHERE sc.SPELL_CLASS LIKE '%"
 					+ cclass + "%' AND sc.SPELL_LEVEL = "+level+" AND s.id = sc.spell_id ORDER BY SPELL_NAME";
-			Vector v = selectSpells(selectString);
+			Vector<Spell> v = selectSpells(selectString);
 			levelHash.put(levelString, v);
 			o = v;
 		}
-		return (Vector) o;
+		return (Vector<Spell>) o;
 	}
 
 	public Vector<Spell> getSpells() {
@@ -518,17 +518,17 @@ public class SpellDAO extends InitBaseDAO implements LibraryItemDAO{
 		Vector<SpellClass> classes = new Vector<SpellClass>();
 		if (classHash == null) {
 			
-			classHash = new HashMap();
+			classHash = new HashMap<String, Vector<SpellClass>>();
 			SpellClassesDAO scdb = new SpellClassesDAO();
-			Vector v = scdb.getSpellClasses();
+			Vector<?> v = scdb.getSpellClasses();
 			for (int i = 0; i < v.size(); i++) {
 				SpellClass sc = (SpellClass) v.get(i);
 				Object prehash = classHash.get(sc.getSpellId());
 				if (prehash != null) {
-					((Vector) prehash).add(sc);
+					((Vector<SpellClass>) prehash).add(sc);
 					// classHash.put(id, prehash);
 				} else {
-					Vector v2 = new Vector();
+					Vector<SpellClass> v2 = new Vector<SpellClass>();
 					v2.add(sc);
 					classHash.put(sc.getSpellId(), v2);
 				}
@@ -537,7 +537,7 @@ public class SpellDAO extends InitBaseDAO implements LibraryItemDAO{
 		}
 		Object v = classHash.get(id);
 		if (v != null) {
-			classes = (Vector) v;
+			classes = (Vector<SpellClass>) v;
 		}
 
 		return classes;

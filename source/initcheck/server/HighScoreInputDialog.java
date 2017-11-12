@@ -27,7 +27,7 @@ public class HighScoreInputDialog extends JDialog {
 		PanelButton add = new PanelButton("Add", false);
 		
 		
-		JComboBox playerChooser;
+		JComboBox<DCharacter> playerChooser;
 		WeaponClassChooser wcChooser = new WeaponClassChooser();
 		WeaponUseChooser wuChooser = new WeaponUseChooser();
 		Vector<DCharacter> chars;
@@ -68,7 +68,7 @@ public class HighScoreInputDialog extends JDialog {
 
 		private void init(){
 						
-				playerChooser = new JComboBox(chars);
+				playerChooser = new JComboBox<DCharacter>(chars);
 				
 				TiledPanel addSub = new TiledPanel("images/rockLighter.jpg");
 				addSub.setLayout(new GridLayout(1, 2));

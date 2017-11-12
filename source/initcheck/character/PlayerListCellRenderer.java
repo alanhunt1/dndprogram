@@ -13,7 +13,7 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.ListCellRenderer;
 
-public class PlayerListCellRenderer extends GridPanel implements ListCellRenderer {
+public class PlayerListCellRenderer extends GridPanel implements ListCellRenderer<Object> {
 
 	private static final long serialVersionUID = 1L;
 	JLabel label = new JLabel();
@@ -50,7 +50,7 @@ public class PlayerListCellRenderer extends GridPanel implements ListCellRendere
 	// This is the only method defined by ListCellRenderer.
 	// We just reconfigure the JLabel each time we're called.
 
-	public Component getListCellRendererComponent(JList list,
+	public Component getListCellRendererComponent(JList<?> list,
 			Object value, // value to display
 			int index, // cell index
 			boolean isSelected, // is the cell selected

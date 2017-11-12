@@ -41,7 +41,7 @@ public class FeatPrereqPanel extends TiledGridPanel {
 	
 	private static final long serialVersionUID = 1L;
 
-	private TiledList prereqList = new TiledList();
+	private TiledList<?> prereqList = new TiledList<Object>();
 
 	private JScrollPane prereqScroll = new JScrollPane(prereqList);
 
@@ -51,7 +51,7 @@ public class FeatPrereqPanel extends TiledGridPanel {
 
 	private PrereqTypeChooser reqType = new PrereqTypeChooser();
 
-	private JComboBox reqName = new JComboBox();
+	private JComboBox<?> reqName = new JComboBox<Object>();
 
 	private JTextField reqValue = new JTextField(5);
 

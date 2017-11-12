@@ -76,7 +76,7 @@ public class ClientServerDungeonGUI extends TiledPanel implements MapListener,
 
 	JLabel positionLabel = new JLabel("0, 0, 0");
 
-	JComboBox mapScale = new JComboBox();
+	JComboBox<String> mapScale = new JComboBox<String>();
 
 	// the time controls
 	JLabel timeLabel = new JLabel("00:00:00");
@@ -85,7 +85,7 @@ public class ClientServerDungeonGUI extends TiledPanel implements MapListener,
 
 	PanelButton resetTimeButton = new PanelButton("Rest");
 
-	JComboBox timeIncrement = new JComboBox();
+	JComboBox<String> timeIncrement = new JComboBox<String>();
 
 	PanelButton incTimeButton = new PanelButton("+", 20);
 
@@ -192,7 +192,7 @@ public class ClientServerDungeonGUI extends TiledPanel implements MapListener,
 			owner.playSound("trap.wav");
 			Vector<String> filenames = new Vector<String>();
 			filenames.add("images/sandclarge.jpg");
-			@SuppressWarnings("unused")
+		
 			SplashScreen ss = new SplashScreen(owner.getFrame());
 			ss.display(filenames, 3000);
 		}

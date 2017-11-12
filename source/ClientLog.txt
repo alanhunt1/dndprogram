@@ -1,0 +1,6 @@
+2017-11-11 21:10:59,509 [main] DEBUG initcheck.InitClient  - STARTING UP INIT CLIENT
+2017-11-11 21:10:59,521 [main] ERROR initcheck.preferences.PreferencesDialog  - Error reading preferences from file java.io.FileNotFoundException: saves\ClientPreferences.ser (The system cannot find the file specified)
+2017-11-11 21:11:00,148 [main] DEBUG initcheck.dungeon.ClientServerDungeonGUI  - init dungeon
+2017-11-11 21:11:00,155 [main] DEBUG initcheck.dungeon.DrawingBoard  - LOADING DUNGEON
+2017-11-11 21:11:00,168 [main] DEBUG initcheck.InitClient  - java.io.FileNotFoundException: saves\clientprefs.ser (The system cannot find the file specified)
+2017-11-11 21:11:07,368 [AWT-EventQueue-0] DEBUG initcheck.io.ClientMessageSender  - java.lang.NullPointerException

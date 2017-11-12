@@ -41,7 +41,7 @@ public class CreateCharClassPanel extends TiledDialog {
 
 	private static final long serialVersionUID = 1L;
 
-	private JList charClassList = new JList();
+	private JList<CharClassPrereq> charClassList = new JList<CharClassPrereq>();
 
 	private JTextField name = new JTextField(20);
 
@@ -87,7 +87,7 @@ public class CreateCharClassPanel extends TiledDialog {
 
 	private PrereqTypeChooser reqType = new PrereqTypeChooser();
 
-	private JComboBox reqName = new JComboBox();
+	private JComboBox<?> reqName = new JComboBox<Object>();
 
 	private JTextField reqValue = new JTextField(5);
 
