@@ -10,6 +10,7 @@ public class InitBaseDAO {
 	public String dataSource = "jdbc:odbc:player";
 	final String fileName = "c:/cvs/source/source/player.mdb";
 	// String dataSource = "jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};DBQ="+fileName;
+	
 	public String password = "test";
 
 	public String driverName = "sun.jdbc.odbc.JdbcOdbcDriver";
@@ -21,7 +22,7 @@ public class InitBaseDAO {
 
 	DBSession dbs2 = InitConnectionFactory.getInstance().getSecondarySession();
 
-	DBSession dbs3 = InitConnectionFactory.getInstance().getSecondarySession();
+	DBSession dbs3 = InitConnectionFactory.getInstance().getTertiarySession();
 	
 	
 	public void resetConnection() {

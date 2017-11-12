@@ -230,8 +230,14 @@ public class FeatEffectsDAO extends InitBaseDAO {
 		}
 		Vector<FeatEffects> v = new Vector<FeatEffects>();
 		try {
-			dbs.open();
-			ResultSet result = dbs.executeSQLQuery(selectString);
+			ResultSet result = null;
+			if (dbs2 == null) {
+				dbs.open();
+				result = dbs.executeSQLQuery(selectString);
+			} else {
+				result = dbs2.executeSQLQuery(selectString);
+			}
+
 			while (result.next()) {
 				FeatEffects obj = new FeatEffects();
 
@@ -251,7 +257,11 @@ public class FeatEffectsDAO extends InitBaseDAO {
 		} catch (Exception e) {
 			logger.log("error", e.toString());
 		} finally {
-			dbs.close();
+			if (dbs2 == null) {
+				dbs.close();
+			} else {
+				dbs2.cleanup();
+			}
 		}
 		return v;
 	}

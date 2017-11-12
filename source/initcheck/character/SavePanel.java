@@ -1,11 +1,5 @@
 package initcheck.character;
 
-import initcheck.DCharacter;
-import initcheck.InitFont;
-import initcheck.MessageDialog;
-import initcheck.graphics.TiledList;
-import initcheck.graphics.TiledPanel;
-
 import java.awt.Component;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
@@ -17,6 +11,13 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextField;
+
+import initcheck.DCharacter;
+import initcheck.InitFont;
+import initcheck.MessageDialog;
+import initcheck.graphics.TiledList;
+import initcheck.graphics.TiledListString;
+import initcheck.graphics.TiledPanel;
 
 public class SavePanel extends TiledPanel implements FocusListener, StatusTab {
 
@@ -40,15 +41,15 @@ public class SavePanel extends TiledPanel implements FocusListener, StatusTab {
 
 	private JLabel totalFortSave = new JLabel();
 
-	private TiledList refCalc = new TiledList();
+	private TiledList<TiledListString> refCalc = new TiledList<TiledListString>();
 
 	private JScrollPane refScroll = new JScrollPane(refCalc);
 
-	private TiledList willCalc = new TiledList();
+	private TiledList<TiledListString> willCalc = new TiledList<TiledListString>();
 
 	private JScrollPane willScroll = new JScrollPane(willCalc);
 
-	private TiledList fortCalc = new TiledList();
+	private TiledList<TiledListString> fortCalc = new TiledList<TiledListString>();
 
 	private JScrollPane fortScroll = new JScrollPane(fortCalc);
 
@@ -78,9 +79,9 @@ public class SavePanel extends TiledPanel implements FocusListener, StatusTab {
 		super("images/rockLighter.jpg");
 		this.owner = owner;
 
-		refCalc.setCellRenderer(new GenericListCellRenderer());
-		willCalc.setCellRenderer(new GenericListCellRenderer());
-		fortCalc.setCellRenderer(new GenericListCellRenderer());
+		refCalc.setCellRenderer(new SaveListCellRenderer());
+		willCalc.setCellRenderer(new SaveListCellRenderer());
+		fortCalc.setCellRenderer(new SaveListCellRenderer());
 		updateCharacter();
 
 		setBorder(BorderFactory.createEtchedBorder());

@@ -11,7 +11,14 @@ public class PlayerClassDAO extends InitBaseDAO {
 	public PlayerClassDAO() {
 
 	}
-
+	public PlayerClassDAO(DBSession dbs2) {
+		this.dbs2 = dbs2;
+	}
+	public PlayerClassDAO(DBSession dbs2, DBSession dbs3) {
+		this.dbs2 = dbs2;
+		this.dbs3 = dbs3;
+	}
+	
 	public int addOrUpdatePlayerClass(PlayerClass o) {
 		int i = -1;
 		if (o.getId() != null) {
@@ -230,8 +237,13 @@ public class PlayerClassDAO extends InitBaseDAO {
 		}
 		Vector<PlayerClass> v = new Vector<PlayerClass>();
 		try {
-			dbs.open();
-			ResultSet result = dbs.executeSQLQuery(selectString);
+			ResultSet result;
+			if (dbs2 == null) {
+				dbs.open();
+				result = dbs.executeSQLQuery(selectString);
+			} else {
+				result = dbs2.executeSQLQuery(selectString);
+			}
 			while (result.next()) {
 				PlayerClass obj = new PlayerClass();
 
@@ -246,10 +258,16 @@ public class PlayerClassDAO extends InitBaseDAO {
 			}
 		} catch (SQLException sqle) {
 			logger.log("error", sqle.toString());
+			sqle.printStackTrace();
 		} catch (Exception e) {
 			logger.log("error", e.toString());
+			e.printStackTrace();
 		} finally {
-			dbs.close();
+			if (dbs2 == null) {
+				dbs.close();
+			} else {
+				dbs2.cleanup();
+			}
 		}
 		return v;
 	}
@@ -382,7 +400,7 @@ public class PlayerClassDAO extends InitBaseDAO {
 				result = dbses.executeSQLQuery(queryString);
 			}
 
-			ClassAbilitiesDAO cadb = new ClassAbilitiesDAO();
+			ClassAbilitiesDAO cadb = new ClassAbilitiesDAO(dbs3);
 			
 			while (result.next()) {
 

@@ -1,7 +1,5 @@
 package initcheck.database;
 
-import initcheck.InitLogger;
-
 import java.sql.BatchUpdateException;
 import java.sql.CallableStatement;
 import java.sql.Connection;
@@ -12,6 +10,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.StringTokenizer;
 import java.util.Vector;
+
+import initcheck.InitLogger;
 
 /**
  * DBSession is a class that is intended to act as a middle
@@ -113,7 +113,12 @@ public class DBSession {
 				    //String url = "jdbc:odbc:Driver={Microsoft Access Driver (*.mdb)};DBQ="+fileName;
 				    //con = DriverManager.getConnection(url,"","");
 				    
-				    dbConn=DriverManager.getConnection("jdbc:ucanaccess://"+fileName); 
+				    //dbConn=DriverManager.getConnection("jdbc:ucanaccess://"+fileName); 
+					Class.forName("com.mysql.jdbc.Driver");  
+				    dbConn =
+				    	       DriverManager.getConnection("jdbc:mysql://localhost/player?autoReconnect=true&useSSL=false&" +
+				    	                                   "user=root&password=infidelMS1");
+
 				    
 				} catch (Exception e) {
 				    // Handle exceptions

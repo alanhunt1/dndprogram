@@ -9,7 +9,10 @@ public class CampaignWhiteListDAO extends InitBaseDAO {
 	public CampaignWhiteListDAO() {
 
 	}
-
+	public CampaignWhiteListDAO(DBSession dbs2) {
+		this.dbs2 = dbs2;
+	}
+	
 	public int addOrUpdateCampaignWhiteList(CampaignWhiteList o) {
 		int i = -1;
 		if (o.getId() != null) {
@@ -207,8 +210,13 @@ public class CampaignWhiteListDAO extends InitBaseDAO {
 		}
 		Vector<CampaignWhiteList> v = new Vector<CampaignWhiteList>();
 		try {
-			dbs.open();
-			ResultSet result = dbs.executeSQLQuery(selectString);
+			ResultSet result;
+			if (dbs2 == null) {
+				dbs.open();
+				result = dbs.executeSQLQuery(selectString);
+			} else {
+				result = dbs2.executeSQLQuery(selectString);
+			}
 			while (result.next()) {
 				CampaignWhiteList obj = new CampaignWhiteList();
 
@@ -225,7 +233,11 @@ public class CampaignWhiteListDAO extends InitBaseDAO {
 		} catch (Exception e) {
 			logger.log("error", e.toString());
 		} finally {
-			dbs.close();
+			if (dbs2 == null) {
+				dbs.close();
+			} else {
+				dbs2.cleanup();
+			}
 		}
 		return v;
 	}

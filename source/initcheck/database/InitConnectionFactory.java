@@ -8,7 +8,11 @@ public class InitConnectionFactory {
 		public String username = "alan";
 		public String dataSource = "jdbc:odbc:player";
 		public String password = "test";
-		public String driverName = "sun.jdbc.odbc.JdbcOdbcDriver";
+		//public String driverName = "sun.jdbc.odbc.JdbcOdbcDriver";
+		
+		
+		public String driverName = "com.mysql.jdbc.Drive";
+		
 		
 		
 		
@@ -20,6 +24,11 @@ public class InitConnectionFactory {
 		// the connection to the database
 	  private DBSession dbs2 = new DBSession(username, dataSource, 
 																					password, driverName);
+	  
+
+		// the connection to the database
+	  private DBSession dbs3 = new DBSession(username, dataSource, 
+																					password, driverName);
 
 		private static InitConnectionFactory instance = null;
 
@@ -27,7 +36,8 @@ public class InitConnectionFactory {
 				try{
 						dbs.open();
 						dbs2.open();
-					
+						dbs3.open();
+						
 				}catch (Exception e){
 						logger.log("error","DIED IN CONNECTION FACTORY");
 				}
@@ -46,6 +56,10 @@ public class InitConnectionFactory {
 
 		public DBSession getSecondarySession(){
 				return dbs2;
+		}
+		
+		public DBSession getTertiarySession(){
+			return dbs3;
 		}
 }
 

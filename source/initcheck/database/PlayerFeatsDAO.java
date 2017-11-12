@@ -143,7 +143,7 @@ public class PlayerFeatsDAO extends InitBaseDAO {
 			if (dbs2 == null) {
 				dbs.close();
 			} else {
-				dbs.cleanup();
+				dbs2.cleanup();
 			}
 		}
 

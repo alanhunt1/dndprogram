@@ -10,6 +10,10 @@ public class CampaignSourceDAO extends InitBaseDAO {
 
 	}
 
+	public CampaignSourceDAO(DBSession dbs2) {
+		this.dbs2 = dbs2;
+	}
+	
 	public int addOrUpdateCampaignSource(CampaignSource o) {
 		int i = -1;
 		if (o.getId() != null) {
@@ -158,8 +162,14 @@ public class CampaignSourceDAO extends InitBaseDAO {
 		}
 		Vector<CampaignSource> v = new Vector<CampaignSource>();
 		try {
-			dbs.open();
-			ResultSet result = dbs.executeSQLQuery(selectString);
+			ResultSet result;
+			if (dbs2 == null) {
+				dbs.open();
+				result = dbs.executeSQLQuery(selectString);
+			} else {
+				result = dbs2.executeSQLQuery(selectString);
+			}
+			
 			while (result.next()) {
 				CampaignSource obj = new CampaignSource();
 
@@ -174,7 +184,11 @@ public class CampaignSourceDAO extends InitBaseDAO {
 		} catch (Exception e) {
 			logger.log("error", e.toString());
 		} finally {
-			dbs.close();
+			if (dbs2 == null) {
+				dbs.close();
+			} else {
+				dbs2.cleanup();
+			}
 		}
 		return v;
 	}

@@ -11,7 +11,12 @@ public class LoadLimitsDAO extends InitBaseDAO {
 	public LoadLimitsDAO() {
 		selectLoadLimits(new LoadLimits());
 	}
-
+	
+	public LoadLimitsDAO(DBSession dbs2) {
+		this.dbs2 = dbs2;
+		selectLoadLimits(new LoadLimits());
+	}
+	
 	private LoadLimits getLimits(int str){
 			
 		LoadLimits ll = null;

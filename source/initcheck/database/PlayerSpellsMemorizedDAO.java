@@ -9,7 +9,9 @@ public class PlayerSpellsMemorizedDAO extends InitBaseDAO {
 	public PlayerSpellsMemorizedDAO() {
 
 	}
-	
+	public PlayerSpellsMemorizedDAO(DBSession dbs2) {
+		this.dbs2 = dbs2;
+	}
 	public void addPlayerSpellsMemorized(Spell o, String playerId, String spellClass) {
 		String valueString = "";
 		String insertString = "INSERT INTO PLAYER_SPELLS_MEMORIZED (";
@@ -163,8 +165,14 @@ public class PlayerSpellsMemorizedDAO extends InitBaseDAO {
 		Vector<PlayerSpells> v = new Vector<PlayerSpells>();
 		
 		try {
-			dbs.open();
-			ResultSet result = dbs.executeSQLQuery(selectString);
+			ResultSet result = null;
+			if (dbs2 == null) {
+				dbs.open();
+				result = dbs.executeSQLQuery(selectString);
+			} else {
+				result = dbs2.executeSQLQuery(selectString);
+			}
+
 			while (result.next()) {
 				PlayerSpells obj = new PlayerSpells();
 				obj.setSpellName(result.getString("SPELL_NAME"));
@@ -230,7 +238,11 @@ public class PlayerSpellsMemorizedDAO extends InitBaseDAO {
 		} catch (Exception e) {
 			logger.log("error", e.toString());
 		} finally {
-			dbs.close();
+			if (dbs2 == null) {
+				dbs.close();
+			} else {
+				dbs2.cleanup();
+			}
 		}
 		return v;
 	}

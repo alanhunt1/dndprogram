@@ -15,4 +15,8 @@ public class TiledListString implements TiledListItem  {
 		this.internalString = internalString;
 	}
 	
+	
+	public String toString(){
+		return internalString;
+	}
 }

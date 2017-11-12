@@ -23,7 +23,7 @@ public class PlayerLanguagePanel extends TiledPanel implements StatusTab {
 
 	private static final long serialVersionUID = 1L;
 
-	private TiledList languageList = new TiledList();
+	private TiledList<Object> languageList = new TiledList<Object>();
 
 	private JScrollPane languageScroll = new JScrollPane(languageList);
 
@@ -39,7 +39,7 @@ public class PlayerLanguagePanel extends TiledPanel implements StatusTab {
 
 	private JLabel remaining = new JLabel("Languages Available : ");
 
-	private TiledList calcList = new TiledList();
+	private TiledList<Object> calcList = new TiledList<Object>();
 
 	boolean updateRequired = false;
 

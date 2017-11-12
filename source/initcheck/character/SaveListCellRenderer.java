@@ -1,7 +1,5 @@
 package initcheck.character;
 
-import initcheck.InitColor;
-
 import java.awt.Color;
 import java.awt.Component;
 
@@ -9,12 +7,15 @@ import javax.swing.JLabel;
 import javax.swing.JList;
 import javax.swing.ListCellRenderer;
 
-public class GenericListCellRenderer extends JLabel implements ListCellRenderer<Object> {
+import initcheck.InitColor;
+import initcheck.graphics.TiledListString;
+
+public class SaveListCellRenderer extends JLabel implements ListCellRenderer<Object> {
 
 	
 	private static final long serialVersionUID = 1L;
 
-	public GenericListCellRenderer() {
+	public SaveListCellRenderer() {
 		// Don't paint behind the component
 		setOpaque(true);
 	}
@@ -25,14 +26,14 @@ public class GenericListCellRenderer extends JLabel implements ListCellRenderer<
 	// This is the only method defined by ListCellRenderer.
 	// We just reconfigure the JLabel each time we're called.
 
-	public Component getListCellRendererComponent(JList<?> list, Object value, // value
+	public Component getListCellRendererComponent(JList<? extends Object> list, Object value, // value
 																			// to
 																			// display
 			int index, // cell index
 			boolean isSelected, // is the cell selected
 			boolean cellHasFocus) // the list and the cell have the focus
 	{
-		String s = value.toString();
+		String s = ((TiledListString)value).getInternalString();
 		setText(s);
 		// setIcon((s.length() > 10) ? longIcon : shortIcon);
 		if (isSelected) {
@@ -48,4 +49,6 @@ public class GenericListCellRenderer extends JLabel implements ListCellRenderer<
 		setFont(list.getFont());
 		return this;
 	}
+
+	
 }

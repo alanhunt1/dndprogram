@@ -11,7 +11,11 @@ public class ClassAbilitiesDAO extends InitBaseDAO implements LibraryItemDAO {
 	public ClassAbilitiesDAO() {
 
 	}
-
+	
+	public ClassAbilitiesDAO(DBSession dbs2) {
+		this.dbs2 = dbs2;
+	}
+	
 	public int addOrUpdateClassAbilities(ClassAbilities o) {
 		int i = -1;
 		if (o.getId() != null) {
@@ -130,9 +134,15 @@ public class ClassAbilitiesDAO extends InitBaseDAO implements LibraryItemDAO {
 
 		Vector<ClassAbilities> v = new Vector<ClassAbilities>();
 		try {
-			dbs.open();
+			ResultSet result;
+			if (dbs2 == null) {
+				dbs.open();
+				result = dbs.executeSQLQuery(selectString);
+			} else {
+				result = dbs2.executeSQLQuery(selectString);
+			}
 
-			ResultSet result = dbs.executeSQLQuery(selectString);
+			
 			while (result.next()) {
 				ClassAbilities obj = new ClassAbilities();
 
@@ -148,7 +158,11 @@ public class ClassAbilitiesDAO extends InitBaseDAO implements LibraryItemDAO {
 		} catch (Exception e) {
 			logger.log("error", e.toString());
 		} finally {
-			dbs.close();
+			if (dbs2 == null) {
+				dbs.close();
+			}else{
+				dbs2.cleanup();
+			}
 		}
 		return v;
 
@@ -169,9 +183,13 @@ public class ClassAbilitiesDAO extends InitBaseDAO implements LibraryItemDAO {
 
 		Vector<ClassAbilities> v = new Vector<ClassAbilities>();
 		try {
-			dbs.open();
-
-			ResultSet result = dbs.executeSQLQuery(selectString);
+			ResultSet result = null;
+			if (dbs2 == null) {
+				dbs.open();
+				result = dbs.executeSQLQuery(selectString);
+			} else {
+				result = dbs2.executeSQLQuery(selectString);
+			}
 			while (result.next()) {
 				ClassAbilities obj = new ClassAbilities();
 
@@ -187,7 +205,11 @@ public class ClassAbilitiesDAO extends InitBaseDAO implements LibraryItemDAO {
 		} catch (Exception e) {
 			logger.log("error", e.toString());
 		} finally {
-			dbs.close();
+			if (dbs2 == null) {
+				dbs.close();
+			} else {
+				dbs2.cleanup();
+			}
 		}
 		return v;
 

@@ -1,4 +1,4 @@
-<project name="INIT" default="dist" basedir="c:/source/source/">
+<project name="INIT" default="dist" basedir=".">
     <description>
         D and D Initiative Program build file
     </description>

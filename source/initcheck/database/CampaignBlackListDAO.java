@@ -9,7 +9,10 @@ public class CampaignBlackListDAO extends InitBaseDAO {
 	public CampaignBlackListDAO() {
 
 	}
-
+	public CampaignBlackListDAO(DBSession dbs2) {
+		this.dbs2 = dbs2;
+	}
+	
 	public int addOrUpdateCampaignBlackList(CampaignBlackList o) {
 		int i = -1;
 		if (o.getId() != null) {
@@ -206,8 +209,13 @@ public class CampaignBlackListDAO extends InitBaseDAO {
 		}
 		Vector<CampaignBlackList> v = new Vector<CampaignBlackList>();
 		try {
-			dbs.open();
-			ResultSet result = dbs.executeSQLQuery(selectString);
+			ResultSet result;
+			if (dbs2 == null) {
+				dbs.open();
+				result = dbs.executeSQLQuery(selectString);
+			} else {
+				result = dbs2.executeSQLQuery(selectString);
+			}
 			while (result.next()) {
 				CampaignBlackList obj = new CampaignBlackList();
 
@@ -224,7 +232,11 @@ public class CampaignBlackListDAO extends InitBaseDAO {
 		} catch (Exception e) {
 			logger.log("error", e.toString());
 		} finally {
-			dbs.close();
+			if (dbs2 == null) {
+				dbs.close();
+			} else {
+				dbs2.cleanup();
+			}
 		}
 		return v;
 	}

@@ -9,7 +9,9 @@ public class PartyDAO extends InitBaseDAO {
 	public PartyDAO() {
 
 	}
-
+	public PartyDAO(DBSession dbs2) {
+		this.dbs2 = dbs2;
+	}
 	public int addOrUpdateParty(Party o) {
 		int i = -1;
 		if (o.getId() != null) {
@@ -236,8 +238,13 @@ public class PartyDAO extends InitBaseDAO {
 		
 		Vector<Party> v = new Vector<Party>();
 		try {
-			dbs.open();
-			ResultSet result = dbs.executeSQLQuery(selectString);
+			ResultSet result;
+			if (dbs2 == null) {
+				dbs.open();
+				result = dbs.executeSQLQuery(selectString);
+			} else {
+				result = dbs2.executeSQLQuery(selectString);
+			}
 			while (result.next()) {
 				Party obj = new Party();
 
@@ -256,7 +263,11 @@ public class PartyDAO extends InitBaseDAO {
 		} catch (Exception e) {
 			logger.log("error", e.toString());
 		} finally {
-			dbs.close();
+			if (dbs2 == null) {
+				dbs.close();
+			}else{
+				dbs2.cleanup();
+			}
 		}
 		return v;
 	}

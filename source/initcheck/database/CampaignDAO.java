@@ -9,7 +9,9 @@ public class CampaignDAO extends InitBaseDAO {
 	public CampaignDAO() {
 
 	}
-
+	public CampaignDAO(DBSession dbs2) {
+		this.dbs2 = dbs2;
+	}
 	public int addOrUpdateCampaign(Campaign o) {
 		int i = -1;
 		if (o.getId() != null) {
@@ -163,11 +165,18 @@ public class CampaignDAO extends InitBaseDAO {
 		}
 		Vector<Campaign> v = new Vector<Campaign>();
 		try {
-			dbs.open();
-			ResultSet result = dbs.executeSQLQuery(selectString);
-			CampaignSourceDAO csdb = new CampaignSourceDAO();
-			CampaignWhiteListDAO cwldb = new CampaignWhiteListDAO();
-			CampaignBlackListDAO cbldb = new CampaignBlackListDAO();
+			ResultSet result;
+			if (dbs2 == null) {
+				dbs.open();
+				result = dbs.executeSQLQuery(selectString);
+			} else {
+				result = dbs2.executeSQLQuery(selectString);
+			}
+			dbs3.open();
+			
+			CampaignSourceDAO csdb = new CampaignSourceDAO(dbs3);
+			CampaignWhiteListDAO cwldb = new CampaignWhiteListDAO(dbs3);
+			CampaignBlackListDAO cbldb = new CampaignBlackListDAO(dbs3);
 			
 			while (result.next()) {
 				Campaign obj = new Campaign();
@@ -184,10 +193,15 @@ public class CampaignDAO extends InitBaseDAO {
 			}
 		} catch (SQLException sqle) {
 			logger.log("error", sqle.toString());
+			sqle.printStackTrace();
 		} catch (Exception e) {
 			logger.log("error", e.toString());
 		} finally {
-			dbs.close();
+			if (dbs2 == null) {
+				dbs.close();
+			}else{
+				dbs2.cleanup();
+			}
 		}
 		return v;
 	}

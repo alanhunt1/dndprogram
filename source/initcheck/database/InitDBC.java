@@ -1140,12 +1140,12 @@ public class InitDBC extends InitBaseDAO implements Serializable {
 
 				c.setStats(sb);
 
-				PlayerClassDAO pcdb = new PlayerClassDAO();
+				PlayerClassDAO pcdb = new PlayerClassDAO(dbs2, dbs3);
 				c.getClassSet().setClassVector(
 						pcdb.getPlayerClasses("" + c.getID(), dbs2));
 
 				boolean monk = false;
-				ClassAbilitiesDAO cladb = new ClassAbilitiesDAO();
+				ClassAbilitiesDAO cladb = new ClassAbilitiesDAO(dbs2);
 
 				// run through the classes to extract the abilities, and also
 				// to check for special cases.
@@ -1213,10 +1213,14 @@ public class InitDBC extends InitBaseDAO implements Serializable {
 				// pass in an open connection to each of the child tables, so
 				// that
 				// we increase the access speed.
-				PartyDAO pdb = new PartyDAO();
+				PartyDAO pdb = new PartyDAO(dbs2);
 				Party p = pdb.getParty(c.getPartyId());
 				
-				CampaignDAO cdb = new CampaignDAO();
+				if (p == null){
+					System.out.println("NULL PARTY");
+				}
+				
+				CampaignDAO cdb = new CampaignDAO(dbs2);
 				Campaign cmp = cdb.getCampaign(p.getCampaignId());
 				
 				c.setRulesetId(cmp.getRulesetId());
@@ -1228,16 +1232,20 @@ public class InitDBC extends InitBaseDAO implements Serializable {
 				PlayerFavoredEnemyDAO pfedb = new PlayerFavoredEnemyDAO(dbs2);
 				c.setFavoredEnemies(pfedb.getFavoredEnemies("" + c.getID()));
 
+				c.setXp(result.getInt("XP"));  // test
+				
 				PlayerFeatsDAO pfdb = new PlayerFeatsDAO(dbs2);
 				c.setFeatList(pfdb.getPlayerFeats("" + c.getID()));
-
+				c.setXp(result.getInt("XP"));  // test
 				PlayerArmorDAO padb = new PlayerArmorDAO(dbs2);
 				c.setArmor(padb.getPlayerArmor("" + c.getID()));
 				c.setShield(padb.getPlayerShield("" + c.getID()));
 				c.setRestArmor(padb.getPlayerAtRestArmor("" + c.getID()));
-
+				c.setXp(result.getInt("XP"));  // test
 				PlayerSkillsDAO psdb = new PlayerSkillsDAO(dbs2);
-
+			
+				c.setXp(result.getInt("XP"));  // test
+				
 				c.getSkillSet().setSkillList(
 						psdb.getPlayerSkills("" + c.getID()));
 
@@ -1247,11 +1255,14 @@ public class InitDBC extends InitBaseDAO implements Serializable {
 				PlayerWeaponsDAO pwdb = new PlayerWeaponsDAO(dbs2);
 				c.setWeapons(pwdb.getPlayerWeapons("" + c.getID()));
 
+				c.setXp(result.getInt("XP"));  // test
+				
 				PlayerAmmoDAO pamdb = new PlayerAmmoDAO(dbs2);
 				c.setAmmo(pamdb.getPlayerAmmo("" + c.getID()));
 
 				// applyFeats(c);
-
+				c.setXp(result.getInt("XP"));  // test
+				
 				PlayerItemsDAO pidb = new PlayerItemsDAO(dbs2);
 				c.setItems(pidb.getPlayerItems("" + c.getID()));
 				c.setDroppedLocations(pidb.getDroppedLocations("" + c.getID()));
@@ -1265,10 +1276,10 @@ public class InitDBC extends InitBaseDAO implements Serializable {
 				PlayerDomainDAO pddb = new PlayerDomainDAO(dbs2);
 				c.setDomains(pddb.getPlayerDomains("" + c.getID()));
 
-				PlayerSpellsDAO pspdb = new PlayerSpellsDAO();
+				PlayerSpellsDAO pspdb = new PlayerSpellsDAO(dbs2);
 				c.setSpellsKnown(pspdb.getPlayerSpells("" + c.getID()));
 
-				PlayerSpellsMemorizedDAO psmdb = new PlayerSpellsMemorizedDAO();
+				PlayerSpellsMemorizedDAO psmdb = new PlayerSpellsMemorizedDAO(dbs2);
 				c.setSpellsMemorized(psmdb.getPlayerSpellsMemorized(""
 						+ c.getID()));
 
@@ -1284,12 +1295,14 @@ public class InitDBC extends InitBaseDAO implements Serializable {
 
 		} catch (SQLException e) {
 			logger.log("ERROR in getchars: " + e.toString());
+			e.printStackTrace();
 		} catch (Exception uhe) {
 			logger.log("ERROR in getchars : " + uhe.toString());
+			uhe.printStackTrace();
 			
 		} finally {
 			dbs.close();
-			// dbs2.close();
+			
 		}
 		return os;
 

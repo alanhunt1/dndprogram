@@ -246,6 +246,8 @@ public class ClassAdvancementDAO extends InitBaseDAO {
 		} finally {
 			if (dbs2 == null) {
 				dbs.close();
+			}else{
+				dbs2.cleanup();
 			}
 		}
 		return v;

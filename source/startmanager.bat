@@ -15,5 +15,6 @@ set classpath=%CLASSPATH%;%JAVA_LIB%\jgroups-3.2.11.Final.jar
 set classpath=%CLASSPATH%;%JAVA_LIB%\jackcess-2.1.3.jar
 set classpath=%CLASSPATH%;%JAVA_LIB%\hsqldb.jar
 set classpath=%CLASSPATH%;%JAVA_LIB%\rt.jar
+set classpath=%CLASSPATH%;%JAVA_LIB%\mysql-connector-java-5.1.44-bin.jar
 
 "%JAVA_EXE%\java" -ms64M -mx128M -classpath %CLASSPATH%  -Djava.net.preferIPv4Stack=true initcheck.PlayerManager

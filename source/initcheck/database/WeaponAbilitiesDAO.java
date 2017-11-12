@@ -370,6 +370,8 @@ public class WeaponAbilitiesDAO extends InitBaseDAO implements LibraryItemDAO {
 				} else {
 					dbs2.cleanup();
 				}
+			}else{
+				dbs3.close();
 			}
 		}
 		return v;

@@ -9,7 +9,9 @@ public class PlayerSpellsDAO extends InitBaseDAO {
 	public PlayerSpellsDAO() {
 
 	}
-
+	public PlayerSpellsDAO(DBSession dbs2) {
+		this.dbs2 = dbs2;
+	}
 	public void addPlayerSpells(PlayerSpells o) {
 		String valueString = "";
 		String insertString = "INSERT INTO PLAYER_SPELLS (";
